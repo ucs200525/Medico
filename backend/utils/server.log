@@ -1,0 +1,253 @@
+2024-09-22T13:28:42.710Z [INFO]: User registered successfully: testUser@gmail.com
+2024-09-22T13:30:04.400Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-22T13:33:58.009Z [INFO]: User registered successfully: rama@gmail.com
+2024-09-22T13:34:13.553Z [INFO]: User logged in successfully: rama@gmail.com
+2024-09-22T13:34:44.909Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-22T13:42:42.624Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-22T13:53:55.891Z [INFO]: Fetched all patient profiles
+2024-09-22T13:54:02.746Z [INFO]: Fetched all patient profiles
+2024-09-22T13:54:02.760Z [INFO]: Fetched all patient profiles
+2024-09-22T14:17:04.384Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-22T14:17:13.394Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-22T14:20:36.195Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-22T14:23:39.180Z [ERROR]: Error adding patient: Patients validation failed: patientId: Path `patientId` is required.
+2024-09-22T14:24:06.279Z [ERROR]: Error adding patient: Patients validation failed: patientId: Path `patientId` is required.
+2024-09-22T14:24:06.822Z [ERROR]: Error adding patient: Patients validation failed: patientId: Path `patientId` is required.
+2024-09-22T14:27:12.144Z [INFO]: New patient added: uid001
+2024-09-22T14:40:23.444Z [ERROR]: Error updating patient: Cast to ObjectId failed for value "uid001" (type string) at path "_id" for model "Patients"
+2024-09-22T14:40:41.128Z [ERROR]: Error updating patient: Cast to ObjectId failed for value "uid001" (type string) at path "_id" for model "Patients"
+2024-09-22T14:40:41.695Z [ERROR]: Error updating patient: Cast to ObjectId failed for value "uid001" (type string) at path "_id" for model "Patients"
+2024-09-22T14:40:41.900Z [ERROR]: Error updating patient: Cast to ObjectId failed for value "uid001" (type string) at path "_id" for model "Patients"
+2024-09-22T14:40:42.092Z [ERROR]: Error updating patient: Cast to ObjectId failed for value "uid001" (type string) at path "_id" for model "Patients"
+2024-09-22T14:40:42.310Z [ERROR]: Error updating patient: Cast to ObjectId failed for value "uid001" (type string) at path "_id" for model "Patients"
+2024-09-22T14:54:23.499Z [ERROR]: Error updating patient: Cast to ObjectId failed for value "uid001" (type string) at path "_id" for model "Patients"
+2024-09-22T14:54:56.858Z [ERROR]: Error updating patient: Cast to ObjectId failed for value "uid001" (type string) at path "_id" for model "Patients"
+2024-09-22T14:54:57.329Z [ERROR]: Error updating patient: Cast to ObjectId failed for value "uid001" (type string) at path "_id" for model "Patients"
+2024-09-22T14:55:01.992Z [ERROR]: Error updating patient: Cast to ObjectId failed for value "uid001" (type string) at path "_id" for model "Patients"
+2024-09-22T14:55:02.842Z [ERROR]: Error updating patient: Cast to ObjectId failed for value "uid001" (type string) at path "_id" for model "Patients"
+2024-09-22T14:55:12.849Z [ERROR]: Error updating patient: Cast to ObjectId failed for value "uid001" (type string) at path "_id" for model "Patients"
+2024-09-22T14:55:14.068Z [ERROR]: Error updating patient: Cast to ObjectId failed for value "uid001" (type string) at path "_id" for model "Patients"
+2024-09-22T17:38:05.836Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-22T18:19:53.978Z [INFO]: New patient added: uid002
+2024-09-22T18:20:14.934Z [ERROR]: Error adding patient: E11000 duplicate key error collection: hospital.patients index: uid_1 dup key: { uid: "uid002" }
+2024-09-22T18:20:15.320Z [ERROR]: Error adding patient: E11000 duplicate key error collection: hospital.patients index: uid_1 dup key: { uid: "uid002" }
+2024-09-23T06:40:04.896Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T06:43:39.637Z [INFO]: User registered successfully: s@gmail.com
+2024-09-23T06:44:05.998Z [INFO]: User logged in successfully: s@gmail.com
+2024-09-23T06:48:10.674Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T06:51:30.952Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T06:51:37.353Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T06:53:19.482Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T06:54:05.546Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T06:55:42.025Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T06:55:51.780Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T06:57:24.331Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T06:58:19.577Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T06:58:37.311Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T07:03:01.356Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T07:04:44.801Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T07:05:09.776Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T07:07:36.441Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T07:07:39.127Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T07:07:40.020Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T07:07:40.993Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T07:07:45.724Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T07:07:49.494Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T07:07:53.430Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T07:07:58.629Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T07:08:59.955Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T07:09:08.380Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T07:10:01.499Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T07:14:05.670Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T07:15:51.907Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T07:16:00.463Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T07:19:50.149Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T07:20:04.283Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T07:20:11.296Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T07:21:57.197Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T07:43:14.061Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T07:43:18.591Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T07:43:22.415Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T07:44:09.040Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T07:44:22.341Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T09:35:40.254Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T09:41:53.514Z [WARN]: Login attempt failed: User not found for email test@gmail.com
+2024-09-23T09:42:20.865Z [INFO]: User registered successfully: abc@gmail.com
+2024-09-23T09:42:32.800Z [INFO]: User logged in successfully: abc@gmail.com
+2024-09-23T09:42:41.663Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T09:50:02.651Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T09:51:22.952Z [INFO]: User registered successfully: newuer@gmail.com
+2024-09-23T09:52:28.571Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T09:53:51.498Z [INFO]: User logged in successfully: abc@gmail.com
+2024-09-23T09:53:51.678Z [INFO]: User logged in successfully: abc@gmail.com
+2024-09-23T10:28:06.619Z [INFO]: User registered successfully: testUser@gmail.com
+2024-09-23T10:28:11.513Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T12:04:05.307Z [ERROR]: Error adding patient: E11000 duplicate key error collection: hospital.patients index: uid_1 dup key: { uid: "uid002" }
+2024-09-23T12:06:22.205Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T12:07:37.011Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T13:20:10.142Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T13:24:56.298Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T13:25:04.274Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T13:25:15.782Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T13:27:14.908Z [INFO]: UID verified: uid001
+2024-09-23T13:27:29.779Z [INFO]: UID verified: uid001
+2024-09-23T13:27:41.211Z [INFO]: UID verified: uid001
+2024-09-23T13:29:30.179Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T13:31:03.570Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T13:31:06.751Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T13:31:12.658Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T13:31:25.975Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T13:31:57.327Z [INFO]: UID verified: uid001
+2024-09-23T13:33:42.705Z [INFO]: UID verified: uid001
+2024-09-23T13:33:48.826Z [INFO]: UID verified: uid001
+2024-09-23T13:34:28.369Z [INFO]: UID verified: uid001
+2024-09-23T13:35:54.861Z [INFO]: UID verified: uid001
+2024-09-23T13:37:12.136Z [INFO]: UID verified: uid001
+2024-09-23T13:37:26.466Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T13:37:35.460Z [INFO]: UID verified: uid001
+2024-09-23T13:39:21.737Z [INFO]: UID verified: uid001
+2024-09-23T13:39:25.327Z [INFO]: UID verified: uid001
+2024-09-23T13:39:25.502Z [INFO]: UID verified: uid001
+2024-09-23T13:40:01.526Z [INFO]: UID verified: uid001
+2024-09-23T13:45:47.515Z [INFO]: UID verified: uid001
+2024-09-23T13:45:49.375Z [INFO]: UID verified: uid001
+2024-09-23T13:45:55.565Z [INFO]: UID verified: uid001
+2024-09-23T13:46:11.546Z [INFO]: UID verified: uid001
+2024-09-23T13:47:30.331Z [INFO]: UID verified: uid001
+2024-09-23T13:49:33.697Z [INFO]: UID verified: uid001
+2024-09-23T13:49:40.757Z [INFO]: UID verified: uid001
+2024-09-23T13:49:44.607Z [INFO]: UID verified: uid001
+2024-09-23T13:54:19.531Z [INFO]: UID verified: uid001
+2024-09-23T13:54:32.862Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T13:54:41.645Z [WARN]: UID verification failed: UID uid111 not found
+2024-09-23T13:54:49.779Z [INFO]: UID verified: uid001
+2024-09-23T13:55:33.014Z [INFO]: UID verified: uid001
+2024-09-23T13:59:18.360Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T14:17:44.495Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T14:26:05.988Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T14:26:20.231Z [INFO]: UID verified: uid001
+2024-09-23T14:26:24.283Z [INFO]: UID verified: uid001
+2024-09-23T14:26:24.803Z [INFO]: UID verified: uid001
+2024-09-23T14:26:24.927Z [INFO]: UID verified: uid001
+2024-09-23T14:26:25.164Z [INFO]: UID verified: uid001
+2024-09-23T14:26:48.605Z [INFO]: UID verified: uid001
+2024-09-23T14:26:49.321Z [INFO]: UID verified: uid001
+2024-09-23T14:26:49.429Z [INFO]: UID verified: uid001
+2024-09-23T14:26:49.665Z [INFO]: UID verified: uid001
+2024-09-23T14:26:56.955Z [INFO]: UID verified: uid001
+2024-09-23T14:27:09.032Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T14:27:15.073Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T14:27:21.159Z [INFO]: UID verified: uid001
+2024-09-23T14:27:29.906Z [INFO]: UID verified: uid001
+2024-09-23T14:28:18.333Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T14:28:25.514Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T14:28:31.285Z [INFO]: UID verified: uid001
+2024-09-23T14:28:40.698Z [INFO]: UID verified: uid001
+2024-09-23T14:28:48.680Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T14:29:28.747Z [INFO]: UID verified: uid001
+2024-09-23T14:29:37.988Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T14:29:41.266Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T14:29:56.035Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T14:30:00.460Z [INFO]: UID verified: uid001
+2024-09-23T14:30:08.843Z [INFO]: UID verified: uid001
+2024-09-23T14:30:17.033Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T14:30:21.676Z [INFO]: UID verified: uid001
+2024-09-23T14:30:42.891Z [INFO]: UID verified: uid001
+2024-09-23T14:30:43.628Z [INFO]: UID verified: uid001
+2024-09-23T14:30:43.916Z [INFO]: UID verified: uid001
+2024-09-23T14:30:44.096Z [INFO]: UID verified: uid001
+2024-09-23T14:30:53.930Z [INFO]: UID verified: uid001
+2024-09-23T14:33:13.604Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T14:33:17.696Z [INFO]: UID verified: uid001
+2024-09-23T14:33:23.068Z [INFO]: UID verified: uid001
+2024-09-23T14:33:32.272Z [INFO]: UID verified: uid001
+2024-09-23T14:33:38.118Z [INFO]: UID verified: uid001
+2024-09-23T14:34:40.264Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T14:34:50.433Z [INFO]: UID verified: uid001
+2024-09-23T14:35:24.633Z [INFO]: UID verified: uid001
+2024-09-23T14:35:32.676Z [INFO]: UID verified: uid001
+2024-09-23T14:36:00.710Z [INFO]: UID verified: uid001
+2024-09-23T14:38:05.676Z [INFO]: UID verified: uid001
+2024-09-23T14:38:40.891Z [INFO]: UID verified: uid001
+2024-09-23T14:42:32.798Z [INFO]: UID verified: uid001
+2024-09-23T14:48:06.061Z [INFO]: UID verified: uid001
+2024-09-23T14:48:07.646Z [INFO]: UID verified: uid001
+2024-09-23T14:48:09.592Z [INFO]: UID verified: uid001
+2024-09-23T14:48:09.774Z [INFO]: UID verified: uid001
+2024-09-23T14:48:50.418Z [INFO]: UID verified: uid001
+2024-09-23T14:50:56.829Z [INFO]: UID verified: uid001
+2024-09-23T14:50:57.325Z [INFO]: UID verified: uid001
+2024-09-23T14:51:16.372Z [INFO]: UID verified: uid001
+2024-09-23T14:51:17.282Z [INFO]: UID verified: uid001
+2024-09-23T14:51:17.647Z [INFO]: UID verified: uid001
+2024-09-23T14:51:17.906Z [INFO]: UID verified: uid001
+2024-09-23T14:51:18.208Z [INFO]: UID verified: uid001
+2024-09-23T14:51:28.874Z [INFO]: UID verified: uid001
+2024-09-23T14:57:42.602Z [INFO]: UID verified: uid001
+2024-09-23T14:57:53.687Z [INFO]: UID verified: uid001
+2024-09-23T14:59:22.326Z [INFO]: UID verified: uid001
+2024-09-23T14:59:33.482Z [INFO]: UID verified: uid001
+2024-09-23T14:59:40.012Z [INFO]: UID verified: uid001
+2024-09-23T15:01:46.280Z [INFO]: UID verified: uid001
+2024-09-23T15:02:38.593Z [INFO]: UID verified: uid001
+2024-09-23T15:02:40.638Z [INFO]: UID verified: uid001
+2024-09-23T15:03:25.877Z [INFO]: UID verified: uid001
+2024-09-23T15:05:18.679Z [INFO]: UID verified: uid001
+2024-09-23T15:07:00.830Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T15:10:14.086Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T15:10:53.224Z [INFO]: UID verified: uid001
+2024-09-23T15:13:09.207Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T15:13:17.067Z [INFO]: UID verified: uid001
+2024-09-23T15:13:40.255Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T15:13:46.018Z [INFO]: UID verified: uid001
+2024-09-23T15:16:47.490Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T15:16:51.800Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T15:16:59.746Z [INFO]: UID verified: uid001
+2024-09-23T15:21:50.954Z [INFO]: UID verified: uid001
+2024-09-23T15:22:00.988Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T15:22:07.287Z [INFO]: UID verified: uid001
+2024-09-23T15:24:54.826Z [INFO]: UID verified: uid001
+2024-09-23T15:25:33.879Z [INFO]: UID verified: uid001
+2024-09-23T15:25:37.182Z [INFO]: UID verified: uid001
+2024-09-23T15:25:41.368Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T15:25:47.988Z [INFO]: UID verified: uid001
+2024-09-23T15:25:50.572Z [INFO]: UID verified: uid001
+2024-09-23T15:26:04.304Z [INFO]: UID verified: uid001
+2024-09-23T15:26:11.759Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T15:26:19.360Z [INFO]: UID verified: uid001
+2024-09-23T15:55:43.581Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T15:55:49.477Z [INFO]: UID verified: uid001
+2024-09-23T15:56:40.348Z [INFO]: UID verified: uid001
+2024-09-23T15:58:26.376Z [INFO]: UID verified: uid001
+2024-09-23T15:59:19.186Z [INFO]: UID verified: uid001
+2024-09-23T15:59:35.844Z [INFO]: UID verified: uid001
+2024-09-23T15:59:50.037Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T15:59:59.087Z [INFO]: UID verified: uid001
+2024-09-23T16:00:06.877Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T16:00:56.389Z [INFO]: UID verified: uid001
+2024-09-23T16:11:22.510Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T16:11:28.621Z [INFO]: UID verified: uid001
+2024-09-23T16:11:59.846Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T16:12:04.827Z [INFO]: UID verified: uid001
+2024-09-23T16:13:00.979Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T16:13:30.294Z [INFO]: UID verified: uid001
+2024-09-23T16:13:47.385Z [INFO]: UID verified: uid001
+2024-09-23T16:14:42.128Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T16:16:52.840Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T16:17:43.289Z [INFO]: UID verified: uid001
+2024-09-23T16:17:47.918Z [INFO]: UID verified: uid001
+2024-09-23T16:17:55.835Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T16:24:27.907Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T16:24:39.635Z [INFO]: UID verified: uid001
+2024-09-23T16:45:36.087Z [INFO]: UID verified: uid001
+2024-09-23T16:50:41.234Z [ERROR]: Error adding patient: Patients validation failed: name: Path `name` is required., age: Path `age` is required., gender: Path `gender` is required.
+2024-09-23T16:50:42.927Z [ERROR]: Error adding patient: Patients validation failed: name: Path `name` is required., age: Path `age` is required., gender: Path `gender` is required.
+2024-09-23T16:50:43.073Z [ERROR]: Error adding patient: Patients validation failed: name: Path `name` is required., age: Path `age` is required., gender: Path `gender` is required.
+2024-09-23T16:50:43.273Z [ERROR]: Error adding patient: Patients validation failed: name: Path `name` is required., age: Path `age` is required., gender: Path `gender` is required.
+2024-09-23T16:51:09.505Z [ERROR]: Error adding patient: Patients validation failed: name: Path `name` is required., age: Path `age` is required., gender: Path `gender` is required.
+2024-09-23T16:51:58.523Z [ERROR]: Error adding patient: Patients validation failed: name: Path `name` is required., age: Path `age` is required., gender: Path `gender` is required.
+2024-09-23T16:52:06.481Z [ERROR]: Error adding patient: Patients validation failed: name: Path `name` is required., age: Path `age` is required., gender: Path `gender` is required.
+2024-09-23T16:52:37.417Z [ERROR]: Error adding patient: Patients validation failed: name: Path `name` is required., age: Path `age` is required., gender: Path `gender` is required.
+2024-09-23T16:58:10.002Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-23T16:58:15.867Z [INFO]: UID verified: uid001
+2024-09-23T16:59:16.103Z [INFO]: UID verified: uid001
