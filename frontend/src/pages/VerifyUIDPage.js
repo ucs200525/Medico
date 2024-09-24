@@ -27,7 +27,7 @@ const VerifyUIDPage = () => {
           login(); // Update logged-in state
           navigate('/dashboard'); // Redirect to dashboard
         } else {
-          navigate('/dashboard'); // Redirect to dashboard if user
+          navigate('/dashboardUser'); // Redirect to dashboard if user
         }
       } else {
         throw new Error('Failed to verify UID'); // Throw an error if the response is not 200

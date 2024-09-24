@@ -29,7 +29,7 @@ const Navbar = () => {
           {isLoggedIn ? (
             <>
               <li><button onClick={() => handleNavigation('/dashboard')}>Dashboard</button></li>
-              <li><button onClick={() => handleNavigation('/patients')}>Patients</button></li>
+              <li><button onClick={() => handleNavigation('/patients')}>Add Patients</button></li>
               <li><button onClick={() => handleNavigation('/prescriptions')}>Prescriptions</button></li>
               <li><button onClick={() => handleNavigation('/reports')}>Reports</button></li>
               <li><button onClick={handleLogout}>Logout</button></li>

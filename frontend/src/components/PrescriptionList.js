@@ -10,9 +10,10 @@ const PrescriptionList = ({ prescriptions, onPrescriptionEdit, onPrescriptionDel
         <ul>
           {prescriptions.map((prescription) => (
             <li key={prescription._id}>
-              <h3>{prescription.medication}</h3>
-              <p>Patient UID: {prescription.uid}</p> {/* Changed from patientId to uid */}
-              <p>Date: {new Date(prescription.date).toLocaleDateString()}</p>
+              <h3>Medication: {prescription.medication}</h3>
+              <h3>Dosage: {prescription.dosage}</h3>
+              <h3>Instructions: {prescription.instructions}</h3>
+              <p>Date: {new Date(prescription.createdAt).toLocaleDateString()}</p>
               <button onClick={() => onPrescriptionEdit(prescription)}>Edit</button>
               <button onClick={() => onPrescriptionDelete(prescription._id)}>Delete</button>
             </li>

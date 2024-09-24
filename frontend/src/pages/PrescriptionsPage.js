@@ -1,38 +1,41 @@
-// src/pages/Prescriptions.js
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import PrescriptionList from '../components/PrescriptionList';
-import { useContext } from 'react';
-import { AuthContext } from '../context/AuthContext';
 
 const Prescriptions = ({ uid }) => {
   const [prescriptions, setPrescriptions] = useState([]);
   const [editingPrescription, setEditingPrescription] = useState(null);
   const [formData, setFormData] = useState({
-    medication: '',
     uid: uid, // Initialize uid from props
-    date: ''
+    medication: '',
+    dosage: '',
+    instructions: ''
   });
 
+  // Fetch prescriptions
   useEffect(() => {
     const fetchPrescriptions = async () => {
       try {
-        const response = await axios.get('/api/prescriptions/by-uid/:uid');
+        const response = await axios.get(`http://localhost:4000/api/prescriptions/by-uid/${uid}`);
         setPrescriptions(response.data);
       } catch (error) {
         console.error('Error fetching prescription data:', error);
       }
     };
 
-    fetchPrescriptions();
-  }, []);
+    if (uid) {
+      fetchPrescriptions();
+    }
+  }, [uid]); // Add uid as dependency
 
+  // Set form data when editing
   useEffect(() => {
     if (editingPrescription) {
       setFormData({
-        medication: editingPrescription.medication,
         uid: editingPrescription.uid,
-        date: new Date(editingPrescription.date).toISOString().split('T')[0]
+        medication: editingPrescription.medication,
+        dosage: editingPrescription.dosage,
+        instructions: editingPrescription.instructions
       });
     }
   }, [editingPrescription]);
@@ -45,33 +48,36 @@ const Prescriptions = ({ uid }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (editingPrescription) {
+      // Update prescription
       try {
-        await axios.put(`http://localhost:4000/api/prescriptions/by-uid/:uid`, formData);
+        await axios.put(`http://localhost:4000/api/prescriptions/by-uid/${uid}`, formData);
         setPrescriptions(prescriptions.map(prescription =>
           prescription._id === editingPrescription._id ? { ...prescription, ...formData } : prescription
         ));
         setEditingPrescription(null);
-        setFormData({
-          medication: '',
-          uid: '', // Resetting uid field
-          date: ''
-        });
+        resetForm();
       } catch (error) {
         console.error('Error updating prescription:', error);
       }
     } else {
+      // Add new prescription
       try {
-        await axios.post('http://localhost:4000/api/prescriptions/by-uid', formData);
-        setPrescriptions([...prescriptions, formData]);
-        setFormData({
-          medication: '',
-          uid: '', // Resetting uid field
-          date: ''
-        });
+        const response = await axios.post(`http://localhost:4000/api/prescriptions/by-uid/${uid}`, formData);
+        setPrescriptions([...prescriptions, response.data]);  // Use the response data that contains the new prescription
+        resetForm();
       } catch (error) {
         console.error('Error adding prescription:', error);
       }
     }
+  };
+
+  const resetForm = () => {
+    setFormData({
+      uid: uid, // Keep the UID from props
+      medication: '',
+      dosage: '',
+      instructions: ''
+    });
   };
 
   const handleEdit = (prescription) => {
@@ -80,7 +86,7 @@ const Prescriptions = ({ uid }) => {
 
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`http://localhost:4000/api/prescriptions/by-uid/:uid`);
+      await axios.delete(`http://localhost:4000/api/prescriptions/by-uid/${uid}`);
       setPrescriptions(prescriptions.filter(prescription => prescription._id !== id));
     } catch (error) {
       console.error('Error deleting prescription:', error);
@@ -90,7 +96,11 @@ const Prescriptions = ({ uid }) => {
   return (
     <div>
       <h1>Manage Prescriptions</h1>
-      <PrescriptionList onPrescriptionEdit={handleEdit} onPrescriptionDelete={handleDelete} prescriptions={prescriptions} />
+      <PrescriptionList 
+        onPrescriptionEdit={handleEdit} 
+        onPrescriptionDelete={handleDelete} 
+        prescriptions={prescriptions} 
+      />
       <form onSubmit={handleSubmit}>
         <h2>{editingPrescription ? 'Edit Prescription' : 'Add New Prescription'}</h2>
         <input
@@ -103,20 +113,23 @@ const Prescriptions = ({ uid }) => {
         />
         <input
           type="text"
-          name="uid" // Now it will hold the UID value
-          value={formData.uid}
+          name="dosage"
+          value={formData.dosage}
           onChange={handleInputChange}
-          placeholder="Patient UID"
+          placeholder="Dosage"
           required
         />
         <input
-          type="date"
-          name="date"
-          value={formData.date}
+          type="text"
+          name="instructions"
+          value={formData.instructions}
           onChange={handleInputChange}
+          placeholder="Instructions"
           required
         />
-        <button type="submit">{editingPrescription ? 'Update Prescription' : 'Add Prescription'}</button>
+        <button type="submit">
+          {editingPrescription ? 'Update Prescription' : 'Add Prescription'}
+        </button>
       </form>
     </div>
   );
