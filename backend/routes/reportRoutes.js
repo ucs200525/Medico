@@ -6,12 +6,23 @@ const Patients = require('../models/Patients'); // Import Patients model
 const router = express.Router();
 const logger = require('../utils/logger');
 const { authenticateToken } = require('../middleware/authMiddleware');
+const fs = require('fs'); // Import fs module
 
-// Set up multer for file upload
+// Set up multer for file upload with original filename
+const storage = multer.diskStorage({
+  destination: (req, file, cb) => {
+    cb(null, path.join(__dirname, '../uploads')); // Ensure the directory exists
+  },
+  filename: (req, file, cb) => {
+    // Save file with its original name
+    cb(null, file.originalname);
+  }
+});
+
 const upload = multer({
-  dest: 'uploads/', // Directory for storing uploaded files
+  storage: storage,
   limits: {
-    fileSize: 10 * 1024 * 1024 // 10 MB limit
+    fileSize: 20 * 1024 * 1024 // 20 MB limit
   },
   fileFilter: (req, file, cb) => {
     const fileTypes = /pdf|jpg|jpeg|png/; // Accept various image formats
@@ -26,11 +37,11 @@ const upload = multer({
   }
 });
 
-// @route   POST /api/reports/by-uid
+// @route   POST /api/reports/by-uid/:uid
 // @desc    Upload a new report by patient UID (Admin only)
 // @access  Private (Admin)
-router.post('/by-uid', authenticateToken, upload.single('report'), async (req, res) => {
-  const { uid } = req.body;
+router.post('/by-uid/:uid', upload.single('file'), async (req, res) => {
+  const { uid } = req.params; // Correctly get uid from params
   const file = req.file;
 
   if (!file) {
@@ -48,11 +59,12 @@ router.post('/by-uid', authenticateToken, upload.single('report'), async (req, r
 
     const report = new Report({
       patientId: patient._id, // Use the patient's MongoDB ObjectId
-      filePath: file.path,
-      fileName: file.originalname,
+      filePath: file.path, // Path will have the original name
+      fileName: file.originalname, // Store original file name
       fileType: file.mimetype
     });
     await report.save();
+
     logger.info(`New report uploaded for patient UID: ${uid}`);
     res.status(201).json(report);
   } catch (error) {
@@ -64,7 +76,7 @@ router.post('/by-uid', authenticateToken, upload.single('report'), async (req, r
 // @route   PUT /api/reports/by-uid/:uid/:id
 // @desc    Update a report by patient UID (Admin only)
 // @access  Private (Admin)
-router.put('/by-uid/:uid/:id', authenticateToken, upload.single('report'), async (req, res) => {
+router.put('/by-uid/:uid/:id', upload.single('file'), async (req, res) => {
   const { uid, id } = req.params;
   const file = req.file;
 
@@ -76,13 +88,15 @@ router.put('/by-uid/:uid/:id', authenticateToken, upload.single('report'), async
       return res.status(404).json({ message: 'Patient not found' });
     }
 
+    const updateData = {
+      filePath: file ? file.path : undefined,
+      fileName: file ? file.originalname : undefined,
+      fileType: file ? file.mimetype : undefined 
+    };
+
     const report = await Report.findOneAndUpdate(
       { _id: id, patientId: patient._id },
-      { 
-        filePath: file ? file.path : undefined,
-        fileName: file ? file.originalname : undefined,
-        fileType: file ? file.mimetype : undefined 
-      },
+      updateData,
       { new: true }
     );
 
@@ -102,7 +116,7 @@ router.put('/by-uid/:uid/:id', authenticateToken, upload.single('report'), async
 // @route   DELETE /api/reports/by-uid/:uid/:id
 // @desc    Delete a report by patient UID (Admin only)
 // @access  Private (Admin)
-router.delete('/by-uid/:uid/:id', authenticateToken, async (req, res) => {
+router.delete('/by-uid/:uid/:id', async (req, res) => {
   const { uid, id } = req.params;
 
   try {
@@ -120,9 +134,12 @@ router.delete('/by-uid/:uid/:id', authenticateToken, async (req, res) => {
       return res.status(404).json({ message: 'Report not found' });
     }
 
-    // Optionally, remove the file from the server
-    const fs = require('fs');
-    fs.unlinkSync(report.filePath);
+    // Remove the file from the server
+    fs.unlink(report.filePath, (err) => {
+      if (err) {
+        logger.error(`Error deleting file: ${err.message}`);
+      }
+    });
 
     logger.info(`Report deleted successfully for UID: ${uid}`);
     res.json({ message: 'Report deleted successfully' });
@@ -135,7 +152,7 @@ router.delete('/by-uid/:uid/:id', authenticateToken, async (req, res) => {
 // @route   GET /api/reports/by-uid/:uid
 // @desc    Get all reports by patient UID (Admin only)
 // @access  Private (Admin)
-router.get('/by-uid/:uid', authenticateToken, async (req, res) => {
+router.get('/by-uid/:uid', async (req, res) => {
   const { uid } = req.params;
 
   try {
@@ -159,6 +176,33 @@ router.get('/by-uid/:uid', authenticateToken, async (req, res) => {
     logger.error(`Error fetching reports: ${error.message}`);
     res.status(500).json({ message: 'Server error', error });
   }
+});
+
+// @route   GET /api/reports/:filePath
+// @desc    Get a report file by its file path
+// @access  Public
+router.get('/:filePath', (req, res) => {
+  const { filePath } = req.params;
+
+  // Construct the full path to the file
+  const fullPath = path.join(__dirname, '../uploads', filePath);
+  console.log(`Full path: ${fullPath}`); // Log the full path for debugging
+
+  // Check if the file exists
+  fs.access(fullPath, fs.constants.F_OK, (err) => {
+    if (err) {
+      logger.warn(`File not found: ${fullPath}`);
+      return res.status(404).json({ message: 'File not found' });
+    }
+
+    // Send the file as a response
+    res.sendFile(fullPath, (err) => {
+      if (err) {
+        logger.error(`Error sending file: ${err.message}`);
+        res.status(500).json({ message: 'Error sending file' });
+      }
+    });
+  });
 });
 
 module.exports = router;

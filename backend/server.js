@@ -40,7 +40,6 @@ app.use('/api/patients', patientRoutes);        // Patient routes
 app.use('/api/prescriptions', prescriptionRoutes); // Prescription routes
 app.use('/api/reports', reportRoutes);          // Report routes
 app.use('/api/health', healthRoutes);          // Health routes
-
 // Error handling middleware
 app.use(errorHandler);
 

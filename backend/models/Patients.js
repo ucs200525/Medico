@@ -2,6 +2,7 @@ const mongoose = require('mongoose');
 
 // Define the schema for the Patient model
 const patientSchema = new mongoose.Schema({
+  patientId: { type: mongoose.Schema.Types.ObjectId, ref: 'Patients' },  // Refers to the patient's _id
   uid: { type: String, required: true, unique: true }, // Ensure each UID is unique
   name: { type: String, required: true }, 
   age: { type: Number, required: true }, 

@@ -1,28 +1,13 @@
 const express = require('express');
 const Patient = require('../models/Patients');
+const jwt = require('jsonwebtoken');
 const router = express.Router();
 const logger = require('../utils/logger');
 const { authenticateToken, authorizeAdmin } = require('../middleware/authMiddleware');
 
 
 
-// @route   POST /api/patients
-// @desc    Add a new patient
-// @access  Private (Admin)
-router.post('/', async (req, res) => {
-  const { uid, name, age, gender, otherFields } = req.body;
-
-  try {
-    const newPatient = new Patient({ uid, name, age, gender, otherFields });
-    await newPatient.save();
-    logger.info(`New patient added: ${uid}`);
-    res.status(201).json(newPatient);
-  } catch (err) {
-    logger.error('Error adding patient:', err);
-    res.status(500).json({ message: 'Server error' });
-  }
-});
-
+const JWT_SECRET=process.env.JWT_SECRET||"e24a7e342be9ef60b84f73f4698f4227d5ae4dfc5e452d7f012bf5fe02f58e4c8f73a2c5baf980927f1e9e2e645d8473f1df9ad7f4c53ae7c5ef4fdc7f1c2e0b";
 
 
 // @route   GET /api/patients/:uid
@@ -39,6 +24,24 @@ router.get('/:uid', async (req, res) => {
     res.json(patient);
   } catch (err) {
     logger.error('Error fetching patient by UID:', err);
+    res.status(500).json({ message: 'Server error' });
+  }
+});
+
+
+// @route   POST /api/patients
+// @desc    Add a new patient
+// @access  Private (Admin)
+router.post('/', async (req, res) => {
+  const { uid, name, age, gender, otherFields } = req.body;
+
+  try {
+    const newPatient = new Patient({ uid, name, age, gender, otherFields });
+    await newPatient.save();
+    logger.info(`New patient added: ${uid}`);
+    res.status(201).json(newPatient);
+  } catch (err) {
+    logger.error('Error adding patient:', err);
     res.status(500).json({ message: 'Server error' });
   }
 });
@@ -90,12 +93,16 @@ router.put('/:id', async (req, res) => {
   }
 });*/
 
-// @route   DELETE /api/patients/:id
-// @desc    Delete patient by ID
+
+// @route   DELETE /api/patients/:uid
+// @desc    Delete patient by UID
 // @access  Private (Admin)
-router.delete('/:id', async (req, res) => {
+router.delete('/:uid', async (req, res) => {
   try {
-    const deletedPatient = await Patient.findByIdAndDelete(req.params.id);
+    const { uid } = req.params;
+
+    // Find the patient by UID and delete it
+    const deletedPatient = await Patient.findOneAndDelete({ uid: uid });
 
     if (!deletedPatient) {
       return res.status(404).json({ message: 'Patient not found' });
@@ -107,6 +114,7 @@ router.delete('/:id', async (req, res) => {
     res.status(500).json({ message: 'Server error' });
   }
 });
+
 
 
 
@@ -126,11 +134,10 @@ router.post('/verify-uid', async (req, res) => {
     logger.info(`UID verified: ${uid}`);
     
     // Assuming the patient object includes a role and a token for the admin
-    const token = jwt.sign({ id: patient._id, role: patient.role }, JWT_SECRET, { expiresIn: '1h' });
+    const token = jwt.sign({ id: patient._id }, JWT_SECRET, { expiresIn: '1h' });
     
     return res.status(200).json({
       token,
-      role: patient.role,
       uid: patient.uid // or however you store the UID
     });
   } catch (error) {

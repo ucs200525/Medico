@@ -9,18 +9,18 @@ const { authenticateToken } = require('../middleware/authMiddleware');
 // @route   GET /api/prescriptions/by-uid/:uid
 // @desc    Get all prescriptions by patient UID (Admin only)
 // @access  Private (Admin)
-router.get('/by-uid/:uid', authenticateToken, async (req, res) => {
+router.get('/by-uid/:uid', async (req, res) => {
   const { uid } = req.params;
 
   try {
     // Find the patient by UID
-    const patient = await Patients.findOne({ uid });
+    const patient = await Patients.findOne({ uid: req.params.uid });
     if (!patient) {
       logger.warn(`Patient not found for UID: ${uid}`);
       return res.status(404).json({ message: 'Patient not found' });
     }
 
-    const prescriptions = await Prescription.find({ patientId: patient._id });
+    const prescriptions = await Prescription.find({  patientId: patient._id  });
 
     if (!prescriptions.length) {
       logger.warn(`No prescriptions found for UID: ${uid}`);
@@ -38,9 +38,15 @@ router.get('/by-uid/:uid', authenticateToken, async (req, res) => {
 // @route   POST /api/prescriptions/by-uid
 // @desc    Add a new prescription by patient UID (Admin only)
 // @access  Private (Admin)
-router.post('/by-uid', authenticateToken, async (req, res) => {
-  const { uid, medication, dosage, instructions } = req.body;
-
+router.post('/by-uid/:uid', async (req, res) => {
+  const { uid, medication, dosage, instructions,date } = req.body;
+ 
+  // // Validate input
+  // const validationErrors = validateInput({ uid, medication, dosage, instructions });
+  // if (validationErrors.length) {
+  //   return res.status(400).json({ message: 'Invalid input', errors: validationErrors });
+  // }
+  
   try {
     // Find the patient by UID
     const patient = await Patients.findOne({ uid });
@@ -51,9 +57,10 @@ router.post('/by-uid', authenticateToken, async (req, res) => {
 
     const prescription = new Prescription({ 
       patientId: patient._id, // Use the patient's MongoDB ObjectId
-      medication, 
+      medication,
       dosage, 
-      instructions 
+      instructions ,
+      date
     });
     await prescription.save();
     logger.info(`New prescription added for patient UID: ${uid}`);
@@ -67,7 +74,7 @@ router.post('/by-uid', authenticateToken, async (req, res) => {
 // @route   PUT /api/prescriptions/by-uid/:uid
 // @desc    Update a prescription by patient UID (Admin only)
 // @access  Private (Admin)
-router.put('/by-uid/:uid', authenticateToken, async (req, res) => {
+router.put('/by-uid/:uid', async (req, res) => {
   const { uid } = req.params;
   const updates = req.body;
 
@@ -101,7 +108,7 @@ router.put('/by-uid/:uid', authenticateToken, async (req, res) => {
 // @route   DELETE /api/prescriptions/by-uid/:uid
 // @desc    Delete a prescription by patient UID (Admin only)
 // @access  Private (Admin)
-router.delete('/by-uid/:uid', authenticateToken, async (req, res) => {
+router.delete('/by-uid/:uid', async (req, res) => {
   const { uid } = req.params;
 
   try {

@@ -251,3 +251,1135 @@
 2024-09-23T16:58:10.002Z [INFO]: User logged in successfully: testUser@gmail.com
 2024-09-23T16:58:15.867Z [INFO]: UID verified: uid001
 2024-09-23T16:59:16.103Z [INFO]: UID verified: uid001
+2024-09-24T04:37:03.321Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-24T04:37:18.489Z [INFO]: UID verified: uid001
+2024-09-24T04:37:18.490Z [ERROR]: Error during UID verification: jwt is not defined
+2024-09-24T04:37:24.356Z [INFO]: UID verified: uid001
+2024-09-24T04:37:24.358Z [ERROR]: Error during UID verification: jwt is not defined
+2024-09-24T04:37:30.828Z [INFO]: UID verified: uid001
+2024-09-24T04:37:30.830Z [ERROR]: Error during UID verification: jwt is not defined
+2024-09-24T04:42:14.425Z [INFO]: UID verified: uid001
+2024-09-24T04:42:14.429Z [ERROR]: Error during UID verification: jwt is not defined
+2024-09-24T04:42:15.413Z [INFO]: UID verified: uid001
+2024-09-24T04:42:15.414Z [ERROR]: Error during UID verification: jwt is not defined
+2024-09-24T04:43:21.039Z [INFO]: UID verified: uid001
+2024-09-24T04:49:31.846Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-24T04:49:38.168Z [INFO]: UID verified: uid001
+2024-09-24T04:51:55.046Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-24T04:52:06.215Z [WARN]: UID verification failed: UID uid1234 not found
+2024-09-24T04:52:09.718Z [WARN]: UID verification failed: UID uid1234 not found
+2024-09-24T04:52:23.671Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-24T04:52:28.005Z [INFO]: UID verified: uid001
+2024-09-24T04:52:29.368Z [INFO]: UID verified: uid001
+2024-09-24T05:02:32.146Z [INFO]: UID verified: uid001
+2024-09-24T05:04:54.084Z [INFO]: UID verified: uid001
+2024-09-24T05:17:45.844Z [INFO]: UID verified: uid001
+2024-09-24T05:23:44.572Z [INFO]: UID verified: uid001
+2024-09-24T05:24:36.477Z [INFO]: UID verified: uid001
+2024-09-24T05:25:48.319Z [INFO]: UID verified: uid001
+2024-09-24T05:31:27.122Z [INFO]: UID verified: uid001
+2024-09-24T05:34:47.438Z [INFO]: UID verified: uid001
+2024-09-24T05:35:55.623Z [INFO]: UID verified: uid001
+2024-09-24T05:36:13.329Z [INFO]: UID verified: uid001
+2024-09-24T05:38:56.686Z [INFO]: UID verified: uid001
+2024-09-24T05:40:19.530Z [INFO]: UID verified: uid001
+2024-09-24T05:40:21.228Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T05:40:21.235Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T05:40:45.663Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T05:40:46.596Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T05:40:59.057Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T05:40:59.437Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T05:41:04.804Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T05:41:05.669Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T05:41:12.056Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T05:41:12.249Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T05:41:23.886Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T05:41:24.593Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T05:41:27.015Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T05:41:27.055Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T05:41:30.886Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T05:41:31.057Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T05:41:36.058Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T05:41:36.140Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T05:43:10.095Z [INFO]: New prescription added for patient UID: uid001
+2024-09-24T05:44:42.639Z [INFO]: UID verified: uid001
+2024-09-24T05:44:43.611Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T05:44:43.620Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T05:45:04.624Z [INFO]: New prescription added for patient UID: uid001
+2024-09-24T05:45:57.565Z [INFO]: Prescription deleted successfully for UID: uid001
+2024-09-24T05:48:15.274Z [INFO]: UID verified: uid001
+2024-09-24T05:48:17.099Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T05:48:17.223Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T05:48:18.786Z [INFO]: UID verified: uid001
+2024-09-24T05:48:20.596Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T05:48:20.603Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T05:48:41.921Z [INFO]: New prescription added for patient UID: uid001
+2024-09-24T05:48:51.759Z [INFO]: UID verified: uid001
+2024-09-24T05:48:52.117Z [INFO]: Prescription deleted successfully for UID: uid001
+2024-09-24T05:48:53.384Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T05:48:53.509Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T05:49:03.109Z [INFO]: New prescription added for patient UID: uid001
+2024-09-24T05:49:19.530Z [INFO]: Prescription deleted successfully for UID: uid001
+2024-09-24T05:49:31.844Z [INFO]: Prescription updated successfully for UID: uid001
+2024-09-24T05:49:36.670Z [INFO]: Prescription updated successfully for UID: uid001
+2024-09-24T05:49:44.652Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T05:49:44.659Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T05:49:59.775Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T05:49:59.897Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T05:54:35.924Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T05:54:35.943Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T05:54:47.346Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T05:54:47.353Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T05:54:49.667Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T05:54:49.674Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T06:00:57.230Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:00:57.384Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:00:59.740Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:01:00.084Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:01:00.829Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T06:01:00.845Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T06:01:03.123Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:01:03.137Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:02:28.539Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:02:30.054Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:02:32.062Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:02:32.478Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:02:33.921Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:02:34.114Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:02:37.054Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:02:37.235Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:04:50.985Z [WARN]: No file uploaded
+2024-09-24T06:05:27.876Z [WARN]: No file uploaded
+2024-09-24T06:07:53.660Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:07:55.624Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:08:00.579Z [INFO]: UID verified: uid001
+2024-09-24T06:08:02.657Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:08:02.673Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:08:09.379Z [WARN]: No file uploaded
+2024-09-24T06:09:02.536Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:09:03.616Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:09:06.054Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:09:06.492Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:11:05.737Z [WARN]: No file uploaded
+2024-09-24T06:11:36.543Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:14:27.520Z [WARN]: No file uploaded
+2024-09-24T06:14:38.465Z [INFO]: UID verified: uid001
+2024-09-24T06:14:40.567Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T06:14:40.574Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T06:14:43.257Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:14:43.270Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:15:11.972Z [WARN]: No file uploaded
+2024-09-24T06:15:20.784Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:15:20.793Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:16:02.918Z [WARN]: No file uploaded
+2024-09-24T06:17:35.387Z [WARN]: No file uploaded
+2024-09-24T06:17:52.546Z [WARN]: No file uploaded
+2024-09-24T06:19:53.061Z [WARN]: No file uploaded
+2024-09-24T06:19:55.404Z [WARN]: No file uploaded
+2024-09-24T06:19:55.528Z [WARN]: No file uploaded
+2024-09-24T06:19:55.669Z [WARN]: No file uploaded
+2024-09-24T06:19:55.799Z [WARN]: No file uploaded
+2024-09-24T06:19:55.963Z [WARN]: No file uploaded
+2024-09-24T06:19:56.117Z [WARN]: No file uploaded
+2024-09-24T06:19:56.361Z [WARN]: No file uploaded
+2024-09-24T06:20:29.066Z [INFO]: UID verified: uid001
+2024-09-24T06:20:30.896Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T06:20:30.908Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T06:20:33.594Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:20:33.605Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:20:45.279Z [WARN]: Patient not found for UID: undefined
+2024-09-24T06:21:04.894Z [ERROR]: Error uploading report: Cannot read properties of null (reading '_id')
+2024-09-24T06:21:20.569Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:21:20.574Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:21:27.961Z [ERROR]: Error uploading report: Cannot read properties of null (reading '_id')
+2024-09-24T06:22:47.984Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:22:53.890Z [ERROR]: Error uploading report: Cannot read properties of null (reading '_id')
+2024-09-24T06:25:37.472Z [ERROR]: Error uploading report: patientId is not defined
+2024-09-24T06:25:46.659Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:25:46.817Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:25:55.605Z [ERROR]: Error uploading report: Cannot read properties of null (reading '_id')
+2024-09-24T06:31:01.330Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:31:12.454Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-24T06:31:17.567Z [INFO]: UID verified: uid001
+2024-09-24T06:31:19.443Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:31:19.447Z [WARN]: No reports found for UID: uid001
+2024-09-24T06:31:28.767Z [INFO]: New report uploaded for patient UID: uid001
+2024-09-24T06:31:28.798Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T06:31:47.951Z [INFO]: UID verified: uid001
+2024-09-24T06:31:50.482Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T06:31:50.604Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T06:32:20.308Z [INFO]: New report uploaded for patient UID: uid001
+2024-09-24T06:32:20.327Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T06:36:04.010Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T06:36:04.034Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T06:49:22.282Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T06:49:22.291Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T06:49:22.300Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T06:49:22.321Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T06:49:22.326Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T06:49:22.389Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T06:49:22.418Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T06:49:22.433Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T06:49:22.452Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T06:51:08.025Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-24T06:51:13.937Z [INFO]: UID verified: uid001
+2024-09-24T06:51:15.741Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T06:51:15.746Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T06:51:17.774Z [INFO]: Report deleted successfully for UID: uid001
+2024-09-24T06:51:17.792Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T06:52:20.293Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T06:52:20.300Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T06:53:42.656Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T06:53:42.843Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T06:53:43.059Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T06:53:44.114Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T06:53:44.269Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T06:53:49.050Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T06:53:56.455Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T06:53:56.462Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T06:57:40.107Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T06:57:41.922Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T06:57:42.580Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:03:26.599Z [INFO]: UID verified: uid001
+2024-09-24T07:05:06.830Z [INFO]: UID verified: uid001
+2024-09-24T07:05:08.171Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:05:08.176Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:05:11.182Z [INFO]: UID verified: uid001
+2024-09-24T07:05:13.037Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:05:13.159Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:07:06.296Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:07:06.579Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:08:36.989Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:08:37.586Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:08:38.066Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:08:38.137Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:09:39.680Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:09:40.567Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:10:08.837Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T07:10:08.966Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T07:10:12.714Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:10:12.841Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:10:14.912Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T07:10:15.034Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T07:10:26.552Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-24T07:10:31.796Z [INFO]: UID verified: uid002
+2024-09-24T07:10:33.083Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T07:10:33.092Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T07:10:33.678Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:10:33.685Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:10:36.430Z [WARN]: No prescriptions found for UID: uid002
+2024-09-24T07:10:36.553Z [WARN]: No prescriptions found for UID: uid002
+2024-09-24T07:11:36.266Z [INFO]: New prescription added for patient UID: uid002
+2024-09-24T07:11:44.792Z [WARN]: No reports found for UID: uid002
+2024-09-24T07:11:44.925Z [WARN]: No reports found for UID: uid002
+2024-09-24T07:11:51.823Z [INFO]: Fetched prescriptions for UID: uid002
+2024-09-24T07:11:51.947Z [INFO]: Fetched prescriptions for UID: uid002
+2024-09-24T07:12:12.875Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T07:12:12.880Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T07:12:26.366Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:12:26.371Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:12:32.601Z [INFO]: UID verified: uid002
+2024-09-24T07:12:34.696Z [INFO]: Fetched prescriptions for UID: uid002
+2024-09-24T07:12:34.826Z [INFO]: Fetched prescriptions for UID: uid002
+2024-09-24T07:12:39.893Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T07:12:39.904Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T07:12:45.884Z [INFO]: UID verified: uid002
+2024-09-24T07:12:48.213Z [INFO]: Fetched prescriptions for UID: uid002
+2024-09-24T07:12:48.335Z [INFO]: Fetched prescriptions for UID: uid002
+2024-09-24T07:12:50.481Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:12:50.495Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:13:02.468Z [INFO]: New prescription added for patient UID: uid002
+2024-09-24T07:13:06.980Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T07:13:06.985Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T07:13:08.816Z [WARN]: No reports found for UID: uid002
+2024-09-24T07:13:08.940Z [WARN]: No reports found for UID: uid002
+2024-09-24T07:13:09.826Z [INFO]: Fetched prescriptions for UID: uid002
+2024-09-24T07:13:09.950Z [INFO]: Fetched prescriptions for UID: uid002
+2024-09-24T07:13:10.605Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T07:13:10.610Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T07:13:13.648Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:13:13.652Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:13:16.548Z [INFO]: Prescription deleted successfully for UID: uid002
+2024-09-24T07:13:16.763Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T07:13:16.767Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T07:13:32.951Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T07:13:32.954Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T07:13:50.602Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:13:50.609Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:13:56.915Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-24T07:14:02.403Z [INFO]: UID verified: uid002
+2024-09-24T07:14:06.033Z [INFO]: Fetched prescriptions for UID: uid002
+2024-09-24T07:14:06.160Z [INFO]: Fetched prescriptions for UID: uid002
+2024-09-24T07:14:19.555Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:14:19.559Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:14:29.797Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:14:29.821Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:14:31.608Z [WARN]: File not found: D:\all projects\ecs proj\3.newCurrently working\newapp\backend\uploads\M-1 (1).pdf
+2024-09-24T07:15:24.102Z [INFO]: New report uploaded for patient UID: uid001
+2024-09-24T07:15:24.125Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:15:28.551Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:15:28.556Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:15:30.665Z [WARN]: File not found: D:\all projects\ecs proj\3.newCurrently working\newapp\backend\uploads\M-1.pdf
+2024-09-24T07:16:58.020Z [WARN]: File not found: D:\all projects\ecs proj\3.newCurrently working\newapp\backend\uploads\M-1.pdf
+2024-09-24T07:16:59.150Z [WARN]: File not found: D:\all projects\ecs proj\3.newCurrently working\newapp\backend\uploads\M-1.pdf
+2024-09-24T07:17:23.849Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-24T07:17:27.275Z [INFO]: UID verified: uid001
+2024-09-24T07:17:29.299Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:17:29.429Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:17:33.111Z [WARN]: File not found: D:\all projects\ecs proj\3.newCurrently working\newapp\backend\uploads\M-1 (1).pdf
+2024-09-24T07:17:42.851Z [INFO]: Report deleted successfully for UID: uid001
+2024-09-24T07:17:42.868Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:18:18.213Z [INFO]: New report uploaded for patient UID: uid001
+2024-09-24T07:18:18.235Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:18:32.363Z [INFO]: UID verified: uid001
+2024-09-24T07:18:34.442Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:18:34.572Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:18:42.728Z [WARN]: File not found: D:\all projects\ecs proj\3.newCurrently working\newapp\backend\uploads\SURVEY FOR BUSINESS VENTURE.pdf
+2024-09-24T07:18:43.009Z [WARN]: File not found: D:\all projects\ecs proj\3.newCurrently working\newapp\backend\uploads\SURVEY FOR BUSINESS VENTURE.pdf
+2024-09-24T07:21:26.144Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:21:26.166Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:21:29.906Z [ERROR]: Error uploading report: Report validation failed: fileName: Path `fileName` is required.
+2024-09-24T07:21:30.192Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:21:30.198Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:22:15.126Z [ERROR]: Error uploading report: Report validation failed: fileName: Path `fileName` is required.
+2024-09-24T07:26:26.950Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:26:29.668Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:27:24.902Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:27:25.052Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:27:26.035Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:27:27.038Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:27:28.043Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:27:29.032Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:27:30.033Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:27:31.042Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:27:32.030Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:27:33.031Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:27:34.183Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:28:58.432Z [ERROR]: Error uploading report: Report validation failed: fileName: Path `fileName` is required.
+2024-09-24T07:29:04.598Z [ERROR]: Error uploading report: Report validation failed: fileName: Path `fileName` is required.
+2024-09-24T07:29:39.314Z [ERROR]: Error uploading report: Report validation failed: fileName: Path `fileName` is required.
+2024-09-24T07:30:05.456Z [ERROR]: Error uploading report: Report validation failed: fileName: Path `fileName` is required.
+2024-09-24T07:30:28.190Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:30:28.200Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:30:41.465Z [ERROR]: Error uploading report: Report validation failed: fileName: Path `fileName` is required.
+2024-09-24T07:32:06.792Z [ERROR]: Error uploading report: Report validation failed: fileName: Path `fileName` is required.
+2024-09-24T07:32:06.827Z [ERROR]: Error uploading report: Report validation failed: fileName: Path `fileName` is required.
+2024-09-24T07:32:06.887Z [ERROR]: Error uploading report: Report validation failed: fileName: Path `fileName` is required.
+2024-09-24T07:32:08.899Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:32:08.908Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:32:19.048Z [ERROR]: Error uploading report: Report validation failed: fileName: Path `fileName` is required.
+2024-09-24T07:34:00.916Z [INFO]: New report uploaded for patient UID: uid001
+2024-09-24T07:34:01.049Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:34:05.269Z [WARN]: File not found: D:\all projects\ecs proj\3.newCurrently working\newapp\backend\uploads\SURVEY FOR BUSINESS VENTURE - Google Forms.pdf
+2024-09-24T07:34:46.904Z [WARN]: File not found: D:\all projects\ecs proj\3.newCurrently working\newapp\backend\uploads\SURVEY FOR BUSINESS VENTURE - Google Forms.pdf
+2024-09-24T07:34:50.464Z [INFO]: Report deleted successfully for UID: uid001
+2024-09-24T07:34:50.467Z [ERROR]: Error deleting file: ENOENT: no such file or directory, unlink 'D:\all projects\ecs proj\3.newCurrently working\newapp\backend\uploads\bbb64a4d7d56cf4d049e66cfde2c5c90'
+2024-09-24T07:34:50.522Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:35:26.588Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:35:26.596Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:35:36.991Z [INFO]: New report uploaded for patient UID: uid001
+2024-09-24T07:35:37.011Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:35:39.080Z [WARN]: File not found: D:\all projects\ecs proj\3.newCurrently working\newapp\backend\uploads\SURVEY FOR BUSINESS VENTURE - Google Forms.pdf
+2024-09-24T07:36:23.536Z [WARN]: File not found: D:\all projects\ecs proj\3.newCurrently working\newapp\backend\uploads\SURVEY FOR BUSINESS VENTURE - Google Forms.pdf
+2024-09-24T07:36:42.170Z [INFO]: New report uploaded for patient UID: uid001
+2024-09-24T07:36:57.179Z [INFO]: New report uploaded for patient UID: uid001
+2024-09-24T07:38:06.866Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:38:06.898Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:38:15.020Z [INFO]: New report uploaded for patient UID: uid001
+2024-09-24T07:38:15.043Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:38:28.702Z [INFO]: Report deleted successfully for UID: uid001
+2024-09-24T07:38:28.724Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:38:31.317Z [INFO]: Report deleted successfully for UID: uid001
+2024-09-24T07:38:31.334Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:38:32.190Z [INFO]: Report deleted successfully for UID: uid001
+2024-09-24T07:38:32.194Z [ERROR]: Error deleting file: ENOENT: no such file or directory, unlink 'D:\all projects\ecs proj\3.newCurrently working\newapp\backend\uploads\SURVEY FOR BUSINESS VENTURE - Google Forms.pdf'
+2024-09-24T07:38:32.209Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:38:38.592Z [INFO]: Report deleted successfully for UID: uid001
+2024-09-24T07:38:38.611Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:38:45.449Z [INFO]: Report deleted successfully for UID: uid001
+2024-09-24T07:38:45.452Z [ERROR]: Error deleting file: ENOENT: no such file or directory, unlink 'D:\all projects\ecs proj\3.newCurrently working\newapp\backend\uploads\368cecb7da72f3343ea35ec261432ad1'
+2024-09-24T07:38:45.462Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:38:52.878Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:38:52.884Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:38:54.857Z [INFO]: Report deleted successfully for UID: uid001
+2024-09-24T07:38:54.861Z [ERROR]: Error deleting file: ENOENT: no such file or directory, unlink 'D:\all projects\ecs proj\3.newCurrently working\newapp\backend\uploads\79e535b92e0db1a7108283e4f777d14d'
+2024-09-24T07:38:54.871Z [WARN]: No reports found for UID: uid001
+2024-09-24T07:38:56.795Z [WARN]: Report not found for deletion by UID: uid001
+2024-09-24T07:38:57.431Z [WARN]: Report not found for deletion by UID: uid001
+2024-09-24T07:38:57.540Z [WARN]: Report not found for deletion by UID: uid001
+2024-09-24T07:38:57.709Z [WARN]: Report not found for deletion by UID: uid001
+2024-09-24T07:38:57.878Z [WARN]: Report not found for deletion by UID: uid001
+2024-09-24T07:38:58.048Z [WARN]: Report not found for deletion by UID: uid001
+2024-09-24T07:38:58.282Z [WARN]: Report not found for deletion by UID: uid001
+2024-09-24T07:39:06.538Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T07:39:06.545Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T07:39:09.016Z [WARN]: No reports found for UID: uid001
+2024-09-24T07:39:09.020Z [WARN]: No reports found for UID: uid001
+2024-09-24T07:39:57.814Z [WARN]: No reports found for UID: uid001
+2024-09-24T07:39:57.817Z [WARN]: No reports found for UID: uid001
+2024-09-24T07:41:21.500Z [WARN]: No reports found for UID: uid001
+2024-09-24T07:41:21.507Z [WARN]: No reports found for UID: uid001
+2024-09-24T07:41:29.711Z [INFO]: New report uploaded for patient UID: uid001
+2024-09-24T07:41:29.727Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:41:31.687Z [WARN]: File not found: D:\all projects\ecs proj\3.newCurrently working\newapp\backend\uploads\M-1.pdf
+2024-09-24T07:41:58.418Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:41:58.439Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:42:07.157Z [INFO]: New report uploaded for patient UID: uid001
+2024-09-24T07:42:07.189Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:42:27.693Z [INFO]: New report uploaded for patient UID: uid001
+2024-09-24T07:42:27.715Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:42:39.126Z [INFO]: Report deleted successfully for UID: uid001
+2024-09-24T07:42:39.130Z [ERROR]: Error deleting file: ENOENT: no such file or directory, unlink 'D:\all projects\ecs proj\3.newCurrently working\newapp\backend\uploads\4ddd3b37d70c66742861f9c5803377ea'
+2024-09-24T07:42:39.144Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:42:40.204Z [INFO]: Report deleted successfully for UID: uid001
+2024-09-24T07:42:40.207Z [ERROR]: Error deleting file: ENOENT: no such file or directory, unlink 'D:\all projects\ecs proj\3.newCurrently working\newapp\backend\uploads\M-1 (1).pdf'
+2024-09-24T07:42:40.219Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:42:42.652Z [INFO]: Report deleted successfully for UID: uid001
+2024-09-24T07:42:42.667Z [WARN]: No reports found for UID: uid001
+2024-09-24T07:42:49.385Z [WARN]: No reports found for UID: uid001
+2024-09-24T07:42:49.390Z [WARN]: No reports found for UID: uid001
+2024-09-24T07:44:06.120Z [WARN]: No reports found for UID: uid001
+2024-09-24T07:44:06.143Z [WARN]: No reports found for UID: uid001
+2024-09-24T07:44:14.395Z [INFO]: New report uploaded for patient UID: uid001
+2024-09-24T07:44:14.415Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:44:23.998Z [INFO]: New report uploaded for patient UID: uid001
+2024-09-24T07:44:24.028Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:44:34.509Z [INFO]: New report uploaded for patient UID: uid001
+2024-09-24T07:44:34.528Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:44:50.434Z [INFO]: Report deleted successfully for UID: uid001
+2024-09-24T07:44:50.455Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:45:00.715Z [INFO]: Report deleted successfully for UID: uid001
+2024-09-24T07:45:00.732Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T07:45:01.686Z [INFO]: Report deleted successfully for UID: uid001
+2024-09-24T07:45:01.702Z [WARN]: No reports found for UID: uid001
+2024-09-24T07:45:03.128Z [WARN]: Report not found for deletion by UID: uid001
+2024-09-24T07:45:03.268Z [WARN]: Report not found for deletion by UID: uid001
+2024-09-24T07:45:03.506Z [WARN]: Report not found for deletion by UID: uid001
+2024-09-24T07:45:07.370Z [WARN]: No reports found for UID: uid001
+2024-09-24T07:45:07.374Z [WARN]: No reports found for UID: uid001
+2024-09-24T07:46:12.353Z [INFO]: User registered successfully: testUser1@gmail.com
+2024-09-24T07:46:19.189Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-24T07:46:27.217Z [INFO]: UID verified: uid002
+2024-09-24T07:47:23.747Z [INFO]: New patient added: uid003
+2024-09-24T07:47:52.750Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-24T07:47:55.877Z [INFO]: UID verified: uid003
+2024-09-24T07:49:01.155Z [WARN]: No prescriptions found for UID: uid003
+2024-09-24T07:49:01.160Z [WARN]: No prescriptions found for UID: uid003
+2024-09-24T07:49:13.292Z [WARN]: No prescriptions found for UID: uid003
+2024-09-24T07:49:13.296Z [WARN]: No prescriptions found for UID: uid003
+2024-09-24T07:49:28.286Z [INFO]: New prescription added for patient UID: uid003
+2024-09-24T07:49:39.005Z [INFO]: Fetched prescriptions for UID: uid003
+2024-09-24T07:49:39.011Z [INFO]: Fetched prescriptions for UID: uid003
+2024-09-24T07:49:57.903Z [INFO]: Fetched prescriptions for UID: uid003
+2024-09-24T07:49:57.907Z [INFO]: Fetched prescriptions for UID: uid003
+2024-09-24T07:50:17.828Z [INFO]: UID verified: uid003
+2024-09-24T07:50:21.637Z [INFO]: Fetched prescriptions for UID: uid003
+2024-09-24T07:50:21.832Z [INFO]: Fetched prescriptions for UID: uid003
+2024-09-24T07:50:33.875Z [WARN]: No reports found for UID: uid003
+2024-09-24T07:50:34.021Z [WARN]: No reports found for UID: uid003
+2024-09-24T07:52:59.188Z [INFO]: Fetched prescriptions for UID: uid003
+2024-09-24T07:53:00.743Z [INFO]: Fetched prescriptions for UID: uid003
+2024-09-24T07:53:15.417Z [INFO]: Fetched prescriptions for UID: uid003
+2024-09-24T07:53:19.702Z [INFO]: Fetched prescriptions for UID: uid003
+2024-09-24T07:53:19.826Z [INFO]: Fetched prescriptions for UID: uid003
+2024-09-24T07:53:24.140Z [INFO]: Prescription deleted successfully for UID: uid003
+2024-09-24T07:53:30.833Z [INFO]: New prescription added for patient UID: uid003
+2024-09-24T07:53:37.333Z [INFO]: Fetched prescriptions for UID: uid003
+2024-09-24T07:53:37.769Z [INFO]: Fetched prescriptions for UID: uid003
+2024-09-24T07:53:49.873Z [INFO]: Fetched prescriptions for UID: uid003
+2024-09-24T07:53:49.916Z [INFO]: Fetched prescriptions for UID: uid003
+2024-09-24T07:53:53.406Z [INFO]: Fetched prescriptions for UID: uid003
+2024-09-24T07:53:53.544Z [INFO]: Fetched prescriptions for UID: uid003
+2024-09-24T07:53:54.045Z [INFO]: Fetched prescriptions for UID: uid003
+2024-09-24T07:53:54.053Z [INFO]: Fetched prescriptions for UID: uid003
+2024-09-24T07:53:58.101Z [INFO]: Prescription deleted successfully for UID: uid003
+2024-09-24T07:54:01.985Z [INFO]: New prescription added for patient UID: uid003
+2024-09-24T07:54:08.519Z [INFO]: Fetched prescriptions for UID: uid003
+2024-09-24T07:54:08.527Z [INFO]: Fetched prescriptions for UID: uid003
+2024-09-24T07:54:10.944Z [INFO]: Prescription deleted successfully for UID: uid003
+2024-09-24T07:54:20.984Z [INFO]: New prescription added for patient UID: uid003
+2024-09-24T07:54:22.054Z [INFO]: New prescription added for patient UID: uid003
+2024-09-24T07:54:23.884Z [INFO]: Prescription deleted successfully for UID: uid003
+2024-09-24T07:55:03.776Z [INFO]: Fetched prescriptions for UID: uid003
+2024-09-24T07:55:03.788Z [INFO]: Fetched prescriptions for UID: uid003
+2024-09-24T07:57:48.730Z [INFO]: Prescription deleted successfully for UID: uid003
+2024-09-24T07:57:50.513Z [WARN]: No prescriptions found for UID: uid003
+2024-09-24T07:57:50.518Z [WARN]: No prescriptions found for UID: uid003
+2024-09-24T07:57:58.149Z [INFO]: New prescription added for patient UID: uid003
+2024-09-24T07:58:01.821Z [INFO]: New prescription added for patient UID: uid003
+2024-09-24T07:58:06.001Z [INFO]: Fetched prescriptions for UID: uid003
+2024-09-24T07:58:06.007Z [INFO]: Fetched prescriptions for UID: uid003
+2024-09-24T07:58:20.559Z [INFO]: Prescription deleted successfully for UID: uid003
+2024-09-24T08:01:26.763Z [INFO]: Fetched prescriptions for UID: uid003
+2024-09-24T08:01:26.786Z [INFO]: Fetched prescriptions for UID: uid003
+2024-09-24T08:01:28.322Z [ERROR]: Error deleting prescription: id is not defined
+2024-09-24T08:01:28.930Z [ERROR]: Error deleting prescription: id is not defined
+2024-09-24T08:01:30.441Z [ERROR]: Error deleting prescription: id is not defined
+2024-09-24T08:01:33.190Z [ERROR]: Error deleting prescription: id is not defined
+2024-09-24T08:01:33.325Z [ERROR]: Error deleting prescription: id is not defined
+2024-09-24T08:01:33.559Z [ERROR]: Error deleting prescription: id is not defined
+2024-09-24T08:01:34.989Z [ERROR]: Error deleting prescription: id is not defined
+2024-09-24T08:01:36.509Z [INFO]: Prescription updated successfully for UID: uid003
+2024-09-24T08:01:38.254Z [ERROR]: Error deleting prescription: id is not defined
+2024-09-24T08:02:15.604Z [INFO]: Fetched prescriptions for UID: uid003
+2024-09-24T08:02:15.612Z [INFO]: Fetched prescriptions for UID: uid003
+2024-09-24T08:02:18.942Z [ERROR]: Error deleting prescription: id is not defined
+2024-09-24T08:03:03.358Z [INFO]: Fetched prescriptions for UID: uid003
+2024-09-24T08:03:03.365Z [INFO]: Fetched prescriptions for UID: uid003
+2024-09-24T08:03:05.505Z [WARN]: No reports found for UID: uid003
+2024-09-24T08:03:05.512Z [WARN]: No reports found for UID: uid003
+2024-09-24T08:10:03.297Z [WARN]: Patient not found for UID: :uid003
+2024-09-24T08:10:03.316Z [WARN]: Patient not found for UID: :uid003
+2024-09-24T08:10:13.254Z [INFO]: New prescription added for patient UID: uid003
+2024-09-24T08:10:16.607Z [WARN]: Patient not found for UID: :uid003
+2024-09-24T08:10:16.618Z [WARN]: Patient not found for UID: :uid003
+2024-09-24T08:10:18.984Z [WARN]: Patient not found for UID: :uid003
+2024-09-24T08:10:18.991Z [WARN]: Patient not found for UID: :uid003
+2024-09-24T08:10:22.137Z [WARN]: Patient not found for UID: :uid003
+2024-09-24T08:10:22.144Z [WARN]: Patient not found for UID: :uid003
+2024-09-24T08:10:42.119Z [WARN]: Patient not found for UID: :uid003
+2024-09-24T08:10:42.158Z [WARN]: Patient not found for UID: :uid003
+2024-09-24T08:10:46.723Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-24T08:10:52.607Z [INFO]: UID verified: uid001
+2024-09-24T08:10:54.744Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T08:10:54.749Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T08:11:05.740Z [ERROR]: Error adding new prescription: Prescription validation failed: createdAt: Path `createdAt` is required.
+2024-09-24T08:11:07.472Z [ERROR]: Error adding new prescription: Prescription validation failed: createdAt: Path `createdAt` is required.
+2024-09-24T08:11:10.100Z [ERROR]: Error adding new prescription: Prescription validation failed: createdAt: Path `createdAt` is required.
+2024-09-24T08:11:10.325Z [ERROR]: Error adding new prescription: Prescription validation failed: createdAt: Path `createdAt` is required.
+2024-09-24T08:11:10.492Z [ERROR]: Error adding new prescription: Prescription validation failed: createdAt: Path `createdAt` is required.
+2024-09-24T08:11:12.191Z [ERROR]: Error adding new prescription: Prescription validation failed: createdAt: Path `createdAt` is required.
+2024-09-24T08:11:12.266Z [ERROR]: Error adding new prescription: Prescription validation failed: createdAt: Path `createdAt` is required.
+2024-09-24T08:11:12.515Z [ERROR]: Error adding new prescription: Prescription validation failed: createdAt: Path `createdAt` is required.
+2024-09-24T08:11:17.663Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T08:11:17.678Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T08:11:27.780Z [ERROR]: Error adding new prescription: Prescription validation failed: createdAt: Path `createdAt` is required.
+2024-09-24T08:12:02.840Z [ERROR]: Error adding new prescription: Prescription validation failed: createdAt: Path `createdAt` is required.
+2024-09-24T08:12:25.805Z [ERROR]: Error adding new prescription: Prescription validation failed: createdAt: Path `createdAt` is required.
+2024-09-24T08:12:28.743Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T08:12:28.753Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T08:12:40.042Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T08:12:42.686Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T08:12:43.871Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T08:12:46.457Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T08:12:51.436Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T08:12:53.824Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T08:12:53.831Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T08:12:56.843Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T08:12:56.900Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T08:12:58.630Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T08:12:59.918Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T08:13:25.842Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T08:13:25.865Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T08:13:29.079Z [WARN]: No reports found for UID: uid001
+2024-09-24T08:13:29.083Z [WARN]: No reports found for UID: uid001
+2024-09-24T08:13:46.981Z [WARN]: No reports found for UID: uid001
+2024-09-24T08:13:46.990Z [WARN]: No reports found for UID: uid001
+2024-09-24T08:13:48.398Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T08:13:48.403Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T08:13:54.301Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T08:13:54.306Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T08:14:12.580Z [ERROR]: Error adding new prescription: Prescription validation failed: createdAt: Path `createdAt` is required.
+2024-09-24T08:14:13.153Z [ERROR]: Error adding new prescription: Prescription validation failed: createdAt: Path `createdAt` is required.
+2024-09-24T08:14:22.884Z [ERROR]: Error adding new prescription: Prescription validation failed: createdAt: Path `createdAt` is required.
+2024-09-24T08:14:26.162Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T08:14:26.174Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T08:15:25.009Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T08:15:25.034Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T08:16:25.310Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T08:16:25.899Z [WARN]: Patient not found for UID: :${uid}
+2024-09-24T08:16:32.503Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T08:17:56.223Z [INFO]: User logged in successfully: testUser1@gmail.com
+2024-09-24T08:18:00.359Z [INFO]: UID verified: uid001
+2024-09-24T08:18:02.635Z [WARN]: No reports found for UID: uid001
+2024-09-24T08:18:02.642Z [WARN]: No reports found for UID: uid001
+2024-09-24T08:18:21.712Z [INFO]: New report uploaded for patient UID: uid001
+2024-09-24T08:18:21.733Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T08:18:39.720Z [INFO]: Report deleted successfully for UID: uid001
+2024-09-24T08:18:39.739Z [WARN]: No reports found for UID: uid001
+2024-09-24T08:18:43.131Z [WARN]: No reports found for UID: uid001
+2024-09-24T08:18:43.139Z [WARN]: No reports found for UID: uid001
+2024-09-24T08:20:16.642Z [ERROR]: Error fetching prescriptions: id is not defined
+2024-09-24T08:20:16.662Z [ERROR]: Error fetching prescriptions: id is not defined
+2024-09-24T08:20:19.570Z [ERROR]: Error fetching prescriptions: id is not defined
+2024-09-24T08:20:19.575Z [ERROR]: Error fetching prescriptions: id is not defined
+2024-09-24T08:20:26.813Z [ERROR]: Error adding new prescription: Prescription validation failed: createdAt: Path `createdAt` is required.
+2024-09-24T08:20:27.308Z [ERROR]: Error adding new prescription: Prescription validation failed: createdAt: Path `createdAt` is required.
+2024-09-24T08:20:29.780Z [ERROR]: Error adding new prescription: Prescription validation failed: createdAt: Path `createdAt` is required.
+2024-09-24T08:20:29.845Z [ERROR]: Error adding new prescription: Prescription validation failed: createdAt: Path `createdAt` is required.
+2024-09-24T08:20:30.102Z [ERROR]: Error adding new prescription: Prescription validation failed: createdAt: Path `createdAt` is required.
+2024-09-24T08:20:59.667Z [INFO]: New prescription added for patient UID: uid001
+2024-09-24T08:21:03.287Z [ERROR]: Error fetching prescriptions: id is not defined
+2024-09-24T08:21:03.294Z [ERROR]: Error fetching prescriptions: id is not defined
+2024-09-24T08:21:06.200Z [ERROR]: Error fetching prescriptions: id is not defined
+2024-09-24T08:21:06.205Z [ERROR]: Error fetching prescriptions: id is not defined
+2024-09-24T08:21:23.722Z [INFO]: New prescription added for patient UID: uid001
+2024-09-24T08:21:49.170Z [WARN]: No reports found for UID: uid001
+2024-09-24T08:21:49.186Z [WARN]: No reports found for UID: uid001
+2024-09-24T08:21:53.378Z [ERROR]: Error fetching prescriptions: id is not defined
+2024-09-24T08:21:53.385Z [ERROR]: Error fetching prescriptions: id is not defined
+2024-09-24T08:23:37.107Z [ERROR]: Error fetching prescriptions: Cannot read properties of null (reading '_id')
+2024-09-24T08:23:37.134Z [ERROR]: Error fetching prescriptions: Cannot read properties of null (reading '_id')
+2024-09-24T08:23:39.338Z [ERROR]: Error fetching prescriptions: Cannot read properties of null (reading '_id')
+2024-09-24T08:23:39.343Z [ERROR]: Error fetching prescriptions: Cannot read properties of null (reading '_id')
+2024-09-24T08:23:49.179Z [WARN]: No reports found for UID: uid001
+2024-09-24T08:23:49.185Z [WARN]: No reports found for UID: uid001
+2024-09-24T08:23:58.979Z [INFO]: New report uploaded for patient UID: uid001
+2024-09-24T08:23:59.004Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T08:24:08.008Z [INFO]: New report uploaded for patient UID: uid001
+2024-09-24T08:24:08.035Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T08:25:27.099Z [ERROR]: Error fetching prescriptions: Cannot read properties of null (reading '_id')
+2024-09-24T08:25:27.107Z [ERROR]: Error fetching prescriptions: Cannot read properties of null (reading '_id')
+2024-09-24T08:25:30.062Z [ERROR]: Error fetching prescriptions: Cannot read properties of null (reading '_id')
+2024-09-24T08:25:30.066Z [ERROR]: Error fetching prescriptions: Cannot read properties of null (reading '_id')
+2024-09-24T08:25:44.657Z [ERROR]: Error fetching prescriptions: Cannot read properties of null (reading '_id')
+2024-09-24T08:25:44.663Z [ERROR]: Error fetching prescriptions: Cannot read properties of null (reading '_id')
+2024-09-24T08:28:51.854Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T08:28:51.879Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T08:28:54.546Z [ERROR]: Error fetching prescriptions: Cannot read properties of null (reading '_id')
+2024-09-24T08:28:54.552Z [ERROR]: Error fetching prescriptions: Cannot read properties of null (reading '_id')
+2024-09-24T08:29:38.689Z [ERROR]: Error fetching prescriptions: Cannot read properties of null (reading 'patientId')
+2024-09-24T08:29:38.709Z [ERROR]: Error fetching prescriptions: Cannot read properties of null (reading 'patientId')
+2024-09-24T08:30:49.044Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T08:30:49.066Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T08:32:15.367Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T08:32:15.396Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T08:32:15.855Z [ERROR]: Error fetching prescriptions: Patient is not defined
+2024-09-24T08:32:15.863Z [ERROR]: Error fetching prescriptions: Patient is not defined
+2024-09-24T08:32:54.955Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T08:32:54.977Z [WARN]: Patient not found for UID: :uid001
+2024-09-24T08:34:13.971Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T08:34:24.533Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T08:34:24.552Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T08:34:56.698Z [ERROR]: Error adding new prescription: Patients is not defined
+2024-09-24T08:34:57.175Z [ERROR]: Error adding new prescription: Patients is not defined
+2024-09-24T08:34:59.344Z [ERROR]: Error adding new prescription: Patients is not defined
+2024-09-24T08:35:25.674Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T08:35:25.702Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T08:35:29.681Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T08:35:29.687Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T08:35:38.540Z [INFO]: New prescription added for patient UID: uid001
+2024-09-24T08:35:41.854Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T08:35:41.861Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T08:36:56.745Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T08:36:56.770Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T08:36:57.276Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T08:36:57.285Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T08:37:02.581Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T08:37:02.588Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T08:37:05.862Z [INFO]: Prescription deleted successfully for UID: uid001
+2024-09-24T08:37:08.245Z [INFO]: Prescription deleted successfully for UID: uid001
+2024-09-24T08:37:08.975Z [INFO]: Prescription deleted successfully for UID: uid001
+2024-09-24T08:37:09.508Z [INFO]: Prescription deleted successfully for UID: uid001
+2024-09-24T08:37:37.469Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T08:37:37.478Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T08:37:50.099Z [INFO]: New prescription added for patient UID: uid001
+2024-09-24T08:37:53.561Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T08:37:53.566Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T08:38:14.404Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T08:38:14.410Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T08:38:20.998Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T08:38:21.004Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T08:38:40.885Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T08:38:43.792Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T08:38:43.796Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T08:38:47.349Z [INFO]: Prescription deleted successfully for UID: uid001
+2024-09-24T08:38:53.665Z [INFO]: New prescription added for patient UID: uid001
+2024-09-24T08:38:55.629Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T08:38:55.637Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T08:38:57.414Z [INFO]: Prescription deleted successfully for UID: uid001
+2024-09-24T08:39:04.305Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T08:40:15.391Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T08:40:17.649Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T08:40:20.895Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T08:40:20.902Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T08:40:31.692Z [INFO]: New prescription added for patient UID: uid001
+2024-09-24T08:40:36.525Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T08:40:36.533Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T08:41:12.290Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T08:42:17.924Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T08:42:17.928Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T08:42:18.929Z [INFO]: Prescription deleted successfully for UID: uid001
+2024-09-24T08:42:24.840Z [INFO]: New prescription added for patient UID: uid001
+2024-09-24T08:42:28.244Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T08:42:28.250Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T08:43:40.152Z [INFO]: Prescription deleted successfully for UID: uid001
+2024-09-24T08:43:52.854Z [INFO]: New prescription added for patient UID: uid001
+2024-09-24T08:43:56.454Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T08:43:56.461Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T08:48:29.024Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T08:48:38.713Z [WARN]: Patient not found for UID: 66f27bc84b5026e00b92d35c
+2024-09-24T08:48:40.160Z [WARN]: Patient not found for UID: 66f27bc84b5026e00b92d35c
+2024-09-24T08:48:40.461Z [WARN]: Patient not found for UID: 66f27bc84b5026e00b92d35c
+2024-09-24T08:48:42.812Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T08:48:42.818Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T08:48:55.262Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T08:48:55.267Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T08:49:03.927Z [INFO]: New prescription added for patient UID: uid001
+2024-09-24T08:49:07.439Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T08:49:07.451Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T09:13:17.044Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T09:13:17.059Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T09:13:22.640Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T09:13:22.646Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T09:13:24.292Z [INFO]: Prescription deleted successfully for UID: uid001
+2024-09-24T09:13:38.353Z [INFO]: New prescription added for patient UID: uid001
+2024-09-24T09:13:42.861Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T09:13:42.872Z [INFO]: Fetched prescriptions for UID: uid001
+2024-09-24T09:15:09.447Z [INFO]: Prescription deleted successfully for UID: uid001
+2024-09-24T09:16:05.395Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T09:16:05.404Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T09:16:08.818Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T09:16:08.826Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T09:16:25.699Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T09:16:25.705Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T09:16:30.060Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T09:16:30.068Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T09:16:31.700Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T09:16:31.709Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T09:23:06.743Z [INFO]: New patient added: uid1
+2024-09-24T09:23:09.767Z [ERROR]: Error adding patient: Patients validation failed: uid: Path `uid` is required., name: Path `name` is required., age: Path `age` is required., gender: Path `gender` is required.
+2024-09-24T09:23:22.388Z [ERROR]: Error adding patient: Patients validation failed: uid: Path `uid` is required., name: Path `name` is required., age: Path `age` is required., gender: Path `gender` is required.
+2024-09-24T09:23:30.645Z [INFO]: User logged in successfully: testUser1@gmail.com
+2024-09-24T09:23:39.975Z [INFO]: UID verified: uid001
+2024-09-24T09:23:52.185Z [INFO]: User logged in successfully: testUser1@gmail.com
+2024-09-24T09:23:56.205Z [INFO]: UID verified: uid1
+2024-09-24T09:24:31.400Z [INFO]: New patient added: UID0000
+2024-09-24T09:24:49.676Z [ERROR]: Error adding patient: Patients validation failed: uid: Path `uid` is required., name: Path `name` is required., age: Path `age` is required., gender: Path `gender` is required.
+2024-09-24T09:24:59.631Z [ERROR]: Error adding patient: Patients validation failed: uid: Path `uid` is required., name: Path `name` is required., age: Path `age` is required., gender: Path `gender` is required.
+2024-09-24T09:25:07.388Z [ERROR]: Error adding patient: Patients validation failed: uid: Path `uid` is required., name: Path `name` is required., age: Path `age` is required., gender: Path `gender` is required.
+2024-09-24T09:29:48.301Z [WARN]: No prescriptions found for UID: uid1
+2024-09-24T09:29:48.310Z [WARN]: No prescriptions found for UID: uid1
+2024-09-24T09:30:13.537Z [INFO]: New patient added: uid
+2024-09-24T09:31:27.112Z [INFO]: New patient added: uid0000000000000
+2024-09-24T09:32:27.255Z [INFO]: User logged in successfully: testUser1@gmail.com
+2024-09-24T09:32:29.653Z [INFO]: UID verified: uid0000000000000
+2024-09-24T09:34:00.931Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-24T09:34:09.165Z [INFO]: UID verified: uid0000000000000
+2024-09-24T09:34:36.015Z [WARN]: No prescriptions found for UID: uid0000000000000
+2024-09-24T09:34:36.020Z [WARN]: No prescriptions found for UID: uid0000000000000
+2024-09-24T09:35:16.948Z [WARN]: No reports found for UID: uid0000000000000
+2024-09-24T09:35:16.954Z [WARN]: No reports found for UID: uid0000000000000
+2024-09-24T09:35:19.912Z [WARN]: No prescriptions found for UID: uid0000000000000
+2024-09-24T09:35:19.917Z [WARN]: No prescriptions found for UID: uid0000000000000
+2024-09-24T09:35:30.423Z [INFO]: New prescription added for patient UID: uid0000000000000
+2024-09-24T09:35:35.061Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:35:35.065Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:36:27.871Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:36:27.875Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:36:31.143Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:36:31.150Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:36:39.881Z [WARN]: Patient not found for UID: :uid0000000000000
+2024-09-24T09:36:43.508Z [WARN]: Patient not found for UID: :uid0000000000000
+2024-09-24T09:36:43.604Z [WARN]: Patient not found for UID: :uid0000000000000
+2024-09-24T09:36:43.746Z [WARN]: Patient not found for UID: :uid0000000000000
+2024-09-24T09:36:44.003Z [WARN]: Patient not found for UID: :uid0000000000000
+2024-09-24T09:36:48.980Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:36:48.988Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:36:57.566Z [WARN]: Patient not found for UID: :uid0000000000000
+2024-09-24T09:39:41.718Z [INFO]: Prescription deleted successfully for UID: uid0000000000000
+2024-09-24T09:39:43.756Z [WARN]: Patient not found for UID: :uid0000000000000
+2024-09-24T09:39:44.571Z [WARN]: Patient not found for UID: :uid0000000000000
+2024-09-24T09:39:47.471Z [WARN]: No prescriptions found for UID: uid0000000000000
+2024-09-24T09:39:47.474Z [WARN]: No prescriptions found for UID: uid0000000000000
+2024-09-24T09:39:56.150Z [INFO]: New prescription added for patient UID: uid0000000000000
+2024-09-24T09:40:00.316Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:40:00.322Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:40:38.531Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:40:38.535Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:41:36.956Z [INFO]: UID verified: uid0000000000000
+2024-09-24T09:41:37.846Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:41:37.850Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:41:39.820Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:41:39.951Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:42:04.511Z [WARN]: Patient not found for UID: :uid0000000000000
+2024-09-24T09:42:25.580Z [WARN]: Patient not found for UID: :uid0000000000000
+2024-09-24T09:42:45.475Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:42:46.328Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:42:54.155Z [INFO]: Prescription updated successfully for UID: uid0000000000000
+2024-09-24T09:43:09.056Z [INFO]: UID verified: uid0000000000000
+2024-09-24T09:43:10.798Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:43:10.927Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:43:34.836Z [WARN]: No reports found for UID: uid0000000000000
+2024-09-24T09:43:34.959Z [WARN]: No reports found for UID: uid0000000000000
+2024-09-24T09:43:39.842Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:43:43.884Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:43:45.798Z [INFO]: Prescription updated successfully for UID: uid0000000000000
+2024-09-24T09:43:48.675Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:43:48.791Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:43:58.259Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:43:58.275Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:44:04.414Z [INFO]: Prescription updated successfully for UID: uid0000000000000
+2024-09-24T09:45:48.545Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:45:48.549Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:45:59.892Z [INFO]: New prescription added for patient UID: uid0000000000000
+2024-09-24T09:46:00.371Z [INFO]: New prescription added for patient UID: uid0000000000000
+2024-09-24T09:46:04.771Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:46:04.778Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:53:21.820Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:53:21.825Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:54:15.830Z [INFO]: New prescription added for patient UID: uid0000000000000
+2024-09-24T09:54:20.936Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:54:20.942Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:55:24.658Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:55:24.688Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:55:40.136Z [INFO]: New prescription added for patient UID: uid0000000000000
+2024-09-24T09:55:45.737Z [INFO]: Prescription updated successfully for UID: uid0000000000000
+2024-09-24T09:58:20.443Z [INFO]: UID verified: uid0000000000000
+2024-09-24T09:58:24.485Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T09:58:24.671Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:00:36.267Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:00:36.299Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:00:46.366Z [INFO]: UID verified: uid0000000000000
+2024-09-24T10:00:47.929Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:00:48.071Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:01:01.175Z [INFO]: Prescription deleted successfully for UID: uid0000000000000
+2024-09-24T10:01:02.163Z [INFO]: Prescription deleted successfully for UID: uid0000000000000
+2024-09-24T10:01:03.210Z [INFO]: Prescription deleted successfully for UID: uid0000000000000
+2024-09-24T10:01:05.423Z [INFO]: Prescription deleted successfully for UID: uid0000000000000
+2024-09-24T10:01:14.664Z [INFO]: Prescription deleted successfully for UID: uid0000000000000
+2024-09-24T10:01:26.506Z [WARN]: No prescriptions found for UID: uid0000000000000
+2024-09-24T10:01:26.513Z [WARN]: No prescriptions found for UID: uid0000000000000
+2024-09-24T10:01:47.487Z [WARN]: No prescriptions found for UID: uid0000000000000
+2024-09-24T10:01:47.493Z [WARN]: No prescriptions found for UID: uid0000000000000
+2024-09-24T10:01:49.446Z [WARN]: No prescriptions found for UID: uid0000000000000
+2024-09-24T10:01:49.454Z [WARN]: No prescriptions found for UID: uid0000000000000
+2024-09-24T10:01:50.674Z [WARN]: No prescriptions found for UID: uid0000000000000
+2024-09-24T10:01:50.678Z [WARN]: No prescriptions found for UID: uid0000000000000
+2024-09-24T10:01:51.119Z [INFO]: New prescription added for patient UID: uid0000000000000
+2024-09-24T10:01:55.590Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:01:55.594Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:01:58.642Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:01:58.647Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:02:01.842Z [WARN]: No reports found for UID: uid0000000000000
+2024-09-24T10:02:01.968Z [WARN]: No reports found for UID: uid0000000000000
+2024-09-24T10:02:03.531Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:02:03.657Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:02:06.522Z [WARN]: No reports found for UID: uid0000000000000
+2024-09-24T10:02:06.676Z [WARN]: No reports found for UID: uid0000000000000
+2024-09-24T10:02:07.497Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:02:07.654Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:02:20.120Z [INFO]: New prescription added for patient UID: uid0000000000000
+2024-09-24T10:02:23.896Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:02:23.902Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:07:47.851Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:07:49.320Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:07:49.533Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:07:49.790Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:07:53.801Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:07:53.912Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:10:51.851Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:10:52.317Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:10:53.645Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:10:53.824Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:11:15.025Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:11:15.792Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:11:16.799Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:11:28.561Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:11:29.409Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:11:32.740Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:11:32.749Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:11:44.217Z [ERROR]: Error adding new prescription: Prescription validation failed: createdAt: Path `createdAt` is required.
+2024-09-24T10:11:48.095Z [ERROR]: Error adding new prescription: Prescription validation failed: createdAt: Path `createdAt` is required.
+2024-09-24T10:12:59.313Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:13:07.218Z [INFO]: Prescription deleted successfully for UID: uid0000000000000
+2024-09-24T10:13:09.728Z [ERROR]: Error adding new prescription: Prescription validation failed: createdAt: Path `createdAt` is required.
+2024-09-24T10:13:13.886Z [ERROR]: Error adding new prescription: Prescription validation failed: createdAt: Path `createdAt` is required.
+2024-09-24T10:13:26.837Z [ERROR]: Error adding new prescription: Prescription validation failed: createdAt: Path `createdAt` is required.
+2024-09-24T10:13:56.975Z [INFO]: New prescription added for patient UID: uid0000000000000
+2024-09-24T10:14:02.120Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:14:02.132Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:14:07.900Z [INFO]: Prescription updated successfully for UID: uid0000000000000
+2024-09-24T10:15:04.201Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:15:04.210Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:15:14.746Z [INFO]: New prescription added for patient UID: uid0000000000000
+2024-09-24T10:15:19.527Z [INFO]: Prescription deleted successfully for UID: uid0000000000000
+2024-09-24T10:15:32.929Z [INFO]: Prescription deleted successfully for UID: uid0000000000000
+2024-09-24T10:15:37.332Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:15:37.338Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:15:41.165Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:15:41.171Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:15:43.724Z [INFO]: Prescription deleted successfully for UID: uid0000000000000
+2024-09-24T10:15:48.283Z [WARN]: No prescriptions found for UID: uid0000000000000
+2024-09-24T10:15:48.288Z [WARN]: No prescriptions found for UID: uid0000000000000
+2024-09-24T10:16:00.648Z [WARN]: No reports found for UID: uid0000000000000
+2024-09-24T10:16:00.779Z [WARN]: No reports found for UID: uid0000000000000
+2024-09-24T10:16:02.157Z [WARN]: No prescriptions found for UID: uid0000000000000
+2024-09-24T10:16:02.284Z [WARN]: No prescriptions found for UID: uid0000000000000
+2024-09-24T10:16:06.570Z [INFO]: New prescription added for patient UID: uid0000000000000
+2024-09-24T10:16:10.029Z [WARN]: No reports found for UID: uid0000000000000
+2024-09-24T10:16:10.166Z [WARN]: No reports found for UID: uid0000000000000
+2024-09-24T10:16:11.015Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:16:11.131Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:16:11.655Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:16:11.672Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:16:14.580Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:16:14.653Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:16:14.660Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:16:14.722Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:16:33.812Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:16:33.816Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:18:34.334Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:18:40.787Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:18:51.302Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:18:51.787Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:18:52.793Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:18:53.797Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:18:54.795Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:18:55.786Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:19:10.946Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:19:10.951Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:19:15.014Z [INFO]: Prescription updated successfully for UID: uid0000000000000
+2024-09-24T10:19:17.211Z [INFO]: New prescription added for patient UID: uid0000000000000
+2024-09-24T10:19:20.753Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:19:20.759Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:19:22.614Z [INFO]: Prescription deleted successfully for UID: uid0000000000000
+2024-09-24T10:19:29.800Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:19:29.945Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:19:33.967Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:19:34.813Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:19:35.291Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:20:25.262Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:20:25.804Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:20:26.791Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:20:27.796Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:20:28.788Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:20:32.010Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:20:32.014Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:20:39.430Z [INFO]: Prescription updated successfully for UID: uid0000000000000
+2024-09-24T10:20:42.937Z [INFO]: New prescription added for patient UID: uid0000000000000
+2024-09-24T10:20:44.268Z [WARN]: No reports found for UID: uid0000000000000
+2024-09-24T10:20:44.402Z [WARN]: No reports found for UID: uid0000000000000
+2024-09-24T10:20:45.585Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:20:45.704Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:20:46.392Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:20:46.396Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:20:50.994Z [INFO]: Prescription updated successfully for UID: uid0000000000000
+2024-09-24T10:20:51.365Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:20:51.370Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:21:01.701Z [INFO]: Prescription updated successfully for UID: uid0000000000000
+2024-09-24T10:21:01.872Z [INFO]: Prescription updated successfully for UID: uid0000000000000
+2024-09-24T10:21:05.377Z [INFO]: Prescription deleted successfully for UID: uid0000000000000
+2024-09-24T10:21:19.794Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:21:19.928Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:21:24.798Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:21:24.949Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:21:26.796Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:21:27.805Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:21:27.987Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:21:28.785Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:23:07.860Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:23:07.885Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:23:13.612Z [ERROR]: Error adding new prescription: Prescription validation failed: createdAt: Path `createdAt` is required.
+2024-09-24T10:24:22.916Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:24:23.354Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:24:42.582Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:24:42.593Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:24:42.809Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:24:42.936Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:25:06.253Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:25:06.258Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:25:07.322Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:25:07.472Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:25:40.801Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:25:40.936Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:25:41.289Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:25:41.357Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:25:52.814Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:25:52.818Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:25:53.302Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:25:53.423Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:26:18.682Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:26:18.790Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:26:22.983Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:26:23.788Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:26:25.903Z [ERROR]: Error adding new prescription: Prescription validation failed: createdAt: Path `createdAt` is required.
+2024-09-24T10:26:27.630Z [ERROR]: Error adding new prescription: Prescription validation failed: createdAt: Path `createdAt` is required.
+2024-09-24T10:26:28.260Z [ERROR]: Error adding new prescription: Prescription validation failed: createdAt: Path `createdAt` is required.
+2024-09-24T10:26:30.579Z [ERROR]: Error adding new prescription: Prescription validation failed: createdAt: Path `createdAt` is required.
+2024-09-24T10:26:30.680Z [ERROR]: Error adding new prescription: Prescription validation failed: createdAt: Path `createdAt` is required.
+2024-09-24T10:26:30.887Z [ERROR]: Error adding new prescription: Prescription validation failed: createdAt: Path `createdAt` is required.
+2024-09-24T10:26:37.885Z [INFO]: Prescription updated successfully for UID: uid0000000000000
+2024-09-24T10:26:38.718Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:26:39.426Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:26:39.936Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:26:40.324Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:26:40.568Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:26:40.842Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:30:03.785Z [INFO]: New prescription added for patient UID: uid0000000000000
+2024-09-24T10:30:07.486Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:30:07.496Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:30:11.191Z [INFO]: New prescription added for patient UID: uid0000000000000
+2024-09-24T10:30:15.197Z [INFO]: Prescription updated successfully for UID: uid0000000000000
+2024-09-24T10:30:18.757Z [INFO]: Prescription deleted successfully for UID: uid0000000000000
+2024-09-24T10:30:19.389Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:30:19.398Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:30:36.075Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:30:36.788Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:31:19.042Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:31:19.400Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:31:19.824Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:31:20.792Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:31:21.781Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:31:51.798Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:31:52.812Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:31:56.428Z [INFO]: Prescription deleted successfully for UID: uid0000000000000
+2024-09-24T10:31:56.915Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:32:01.829Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:32:01.836Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:32:02.687Z [INFO]: New prescription added for patient UID: uid0000000000000
+2024-09-24T10:32:10.932Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:32:10.941Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:32:33.959Z [INFO]: Prescription updated successfully for UID: uid0000000000000
+2024-09-24T10:32:37.105Z [INFO]: Prescription deleted successfully for UID: uid0000000000000
+2024-09-24T10:32:39.238Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:32:39.243Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:32:42.011Z [INFO]: Prescription deleted successfully for UID: uid0000000000000
+2024-09-24T10:32:50.476Z [INFO]: New prescription added for patient UID: uid0000000000000
+2024-09-24T10:32:52.960Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:32:52.967Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:33:23.774Z [INFO]: UID verified: uid0000000000000
+2024-09-24T10:33:25.782Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:33:25.901Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:33:29.903Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:33:29.907Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:33:31.711Z [INFO]: Prescription deleted successfully for UID: uid0000000000000
+2024-09-24T10:33:36.286Z [INFO]: New prescription added for patient UID: uid0000000000000
+2024-09-24T10:34:04.794Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:34:04.987Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:34:09.052Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:34:09.739Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:34:13.801Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:34:14.017Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:34:17.802Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:34:18.117Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:34:54.273Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:34:54.279Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:35:01.017Z [INFO]: New prescription added for patient UID: uid0000000000000
+2024-09-24T10:35:03.619Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:35:03.627Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:35:42.889Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:35:42.899Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:35:53.482Z [INFO]: New prescription added for patient UID: uid0000000000000
+2024-09-24T10:35:57.808Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:35:57.812Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:36:41.472Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:36:41.476Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:36:45.530Z [INFO]: UID verified: uid0000000000000
+2024-09-24T10:36:47.530Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:36:47.646Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:37:09.380Z [INFO]: UID verified: uid0000000000000
+2024-09-24T10:37:10.880Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:37:10.998Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:38:04.085Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:38:04.092Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:38:09.436Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:38:10.313Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:39:43.524Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:39:43.574Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:39:50.861Z [INFO]: UID verified: uid0000000000000
+2024-09-24T10:39:52.694Z [INFO]: New prescription added for patient UID: uid0000000000000
+2024-09-24T10:39:53.377Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:39:53.500Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:39:56.726Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:39:56.735Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:39:59.768Z [INFO]: Prescription deleted successfully for UID: uid0000000000000
+2024-09-24T10:39:59.903Z [WARN]: No reports found for UID: uid0000000000000
+2024-09-24T10:40:00.027Z [WARN]: No reports found for UID: uid0000000000000
+2024-09-24T10:40:01.075Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:40:01.195Z [INFO]: Fetched prescriptions for UID: uid0000000000000
+2024-09-24T10:41:24.804Z [INFO]: Prescription deleted successfully for UID: uid0000000000000
+2024-09-24T10:41:27.041Z [INFO]: Prescription deleted successfully for UID: uid0000000000000
+2024-09-24T10:41:27.724Z [INFO]: Prescription deleted successfully for UID: uid0000000000000
+2024-09-24T10:41:38.005Z [WARN]: No prescriptions found for UID: uid0000000000000
+2024-09-24T10:41:38.014Z [WARN]: No prescriptions found for UID: uid0000000000000
+2024-09-24T10:41:39.023Z [WARN]: No reports found for UID: uid0000000000000
+2024-09-24T10:41:39.030Z [WARN]: No reports found for UID: uid0000000000000
+2024-09-24T10:41:46.356Z [WARN]: No reports found for UID: uid0000000000000
+2024-09-24T10:41:46.367Z [WARN]: No reports found for UID: uid0000000000000
+2024-09-24T10:41:58.295Z [INFO]: New report uploaded for patient UID: uid0000000000000
+2024-09-24T10:41:58.312Z [INFO]: Fetched reports for UID: uid0000000000000
+2024-09-24T10:42:15.761Z [WARN]: No prescriptions found for UID: uid0000000000000
+2024-09-24T10:42:15.769Z [WARN]: No prescriptions found for UID: uid0000000000000
+2024-09-24T10:42:16.395Z [INFO]: Fetched reports for UID: uid0000000000000
+2024-09-24T10:42:16.401Z [INFO]: Fetched reports for UID: uid0000000000000
+2024-09-24T10:45:54.016Z [INFO]: Fetched reports for UID: uid0000000000000
+2024-09-24T10:45:54.020Z [INFO]: Fetched reports for UID: uid0000000000000
+2024-09-24T10:49:08.364Z [ERROR]: Error adding patient: E11000 duplicate key error collection: hospital.patients index: uid_1 dup key: { uid: "uid" }
+2024-09-24T10:49:09.494Z [ERROR]: Error adding patient: E11000 duplicate key error collection: hospital.patients index: uid_1 dup key: { uid: "uid" }
+2024-09-24T10:49:36.494Z [INFO]: New patient added: HWHFUIHWUH
+2024-09-24T10:53:46.534Z [INFO]: Fetched reports for UID: uid0000000000000
+2024-09-24T10:53:46.540Z [INFO]: Fetched reports for UID: uid0000000000000
+2024-09-24T10:53:47.176Z [WARN]: No prescriptions found for UID: uid0000000000000
+2024-09-24T10:53:47.183Z [WARN]: No prescriptions found for UID: uid0000000000000
+2024-09-24T10:53:51.387Z [WARN]: No prescriptions found for UID: uid0000000000000
+2024-09-24T10:53:51.392Z [WARN]: No prescriptions found for UID: uid0000000000000
+2024-09-24T10:53:52.497Z [INFO]: Fetched reports for UID: uid0000000000000
+2024-09-24T10:53:52.501Z [INFO]: Fetched reports for UID: uid0000000000000
+2024-09-24T10:53:53.277Z [WARN]: No prescriptions found for UID: uid0000000000000
+2024-09-24T10:53:53.281Z [WARN]: No prescriptions found for UID: uid0000000000000
+2024-09-24T10:53:54.242Z [INFO]: Fetched reports for UID: uid0000000000000
+2024-09-24T10:53:54.256Z [INFO]: Fetched reports for UID: uid0000000000000
+2024-09-24T10:53:54.900Z [WARN]: No prescriptions found for UID: uid0000000000000
+2024-09-24T10:53:54.906Z [WARN]: No prescriptions found for UID: uid0000000000000
+2024-09-24T10:54:25.965Z [WARN]: No prescriptions found for UID: uid0000000000000
+2024-09-24T10:54:25.970Z [WARN]: No prescriptions found for UID: uid0000000000000
+2024-09-24T10:54:52.428Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-24T10:54:52.770Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-24T10:55:28.323Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-24T10:59:53.337Z [INFO]: UID verified: uid
+2024-09-24T11:00:20.250Z [INFO]: UID verified: uid001
+2024-09-24T11:02:20.415Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-24T11:02:33.653Z [INFO]: User logged in successfully: testUser1@gmail.com
+2024-09-24T11:09:09.329Z [INFO]: User logged in successfully: testUser1@gmail.com
+2024-09-24T11:09:12.901Z [INFO]: UID verified: uid
+2024-09-24T11:15:55.047Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-24T11:15:58.671Z [INFO]: UID verified: uid
+2024-09-24T11:19:14.152Z [INFO]: UID verified: uid001
+2024-09-24T11:22:49.031Z [INFO]: UID verified: uid001
+2024-09-24T11:22:49.974Z [INFO]: UID verified: uid001
+2024-09-24T11:26:28.737Z [INFO]: UID verified: uid001
+2024-09-24T11:26:32.407Z [INFO]: UID verified: uid001
+2024-09-24T11:28:05.565Z [INFO]: User logged in successfully: testUser1@gmail.com
+2024-09-24T11:28:08.602Z [INFO]: UID verified: uid
+2024-09-24T11:28:53.945Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-24T11:28:54.787Z [INFO]: User logged in successfully: testUser@gmail.com
+2024-09-24T11:29:02.654Z [INFO]: UID verified: uid
+2024-09-24T11:35:27.297Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T11:35:27.417Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T11:35:28.387Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T11:35:28.540Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T11:35:58.445Z [INFO]: User logged in successfully: testUser1@gmail.com
+2024-09-24T11:36:16.231Z [INFO]: UID verified: uid001
+2024-09-24T11:36:17.829Z [INFO]: UID verified: uid001
+2024-09-24T11:36:20.680Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T11:36:20.797Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T11:36:22.284Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T11:36:22.400Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T11:36:24.880Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T11:36:24.995Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T11:36:30.407Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T11:36:30.522Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T11:36:35.484Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T11:36:35.492Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T11:36:36.230Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T11:36:36.236Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T11:36:36.454Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T11:36:36.573Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T11:36:45.613Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T11:36:45.618Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T11:36:50.757Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T11:36:50.876Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T11:36:51.760Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T11:36:51.765Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T11:36:53.738Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T11:36:53.856Z [INFO]: Fetched reports for UID: uid001
+2024-09-24T11:41:16.946Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T11:41:16.952Z [WARN]: No prescriptions found for UID: uid001
+2024-09-24T11:52:04.814Z [INFO]: User logged in successfully: testUser1@gmail.com
+2024-09-24T11:53:45.199Z [INFO]: User logged in successfully: testUser1@gmail.com
+2024-09-24T12:03:19.149Z [INFO]: User logged in successfully: testUser1@gmail.com
+2024-09-24T12:26:41.217Z [INFO]: User logged in successfully: testUser1@gmail.com
+2024-09-24T12:29:14.982Z [INFO]: User logged in successfully: testUser1@gmail.com
+2024-09-24T12:30:25.077Z [INFO]: User logged in successfully: testUser1@gmail.com
+2024-09-24T12:31:30.689Z [INFO]: User logged in successfully: testUser1@gmail.com

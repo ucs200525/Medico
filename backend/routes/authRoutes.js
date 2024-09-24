@@ -1,7 +1,6 @@
 const express = require('express');
 const jwt = require('jsonwebtoken');
 const Admin = require('../models/Admins');
-const Patient = require('../models/Patients');
 const router = express.Router(); // Use express.Router() instead of express()
 const { validateRegister, validateLogin } = require('../middleware/validationMiddleware');
 const logger = require('../utils/logger.js');
@@ -37,7 +36,6 @@ router.post('/register', validateRegister, async (req, res) => {
 // @route   DELETE /api/admins/:id
 // @desc    Delete admin
 // @access  Private (Assuming authentication is required)
-// Delete an admin by ID
 router.delete('/:id', async (req, res) => {
   try {
     const admin = await Admin.findById(req.params.id);
